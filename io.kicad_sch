@@ -214,6 +214,265 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Screw_Terminal_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Screw_Terminal_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x05"
 			(pin_names
 				(offset 1.016)
@@ -10611,8 +10870,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x05")
-		(at 40.64 187.96 0)
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 40.64 185.42 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10623,7 +10882,7 @@
 		(dnp no)
 		(uuid "66172105-5b84-4bbd-b374-1cb0d27692f5")
 		(property "Reference" "J10"
-			(at 40.64 187.96 0)
+			(at 36.83 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10632,8 +10891,8 @@
 				)
 			)
 		)
-		(property "Value" "IN1-3"
-			(at 40.64 189.865 0)
+		(property "Value" "IN2-3"
+			(at 36.83 180.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10642,8 +10901,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Terminal:TerminalBlock_DB127V-5.0_1x05_P5.00mm"
-			(at 40.64 193.04 0)
+		(property "Footprint" "Terminal:TerminalBlock_DB127V-5.0_1x03_P5.00mm"
+			(at 40.64 190.50 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10654,7 +10913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 193.04 0)
+			(at 40.64 190.50 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10664,8 +10923,8 @@
 				)
 			)
 		)
-		(property "Description" "Dry-contact inputs: 1 IN3, 2 IN2, 3 GND, 4 IN1, 5 GND (board left to right: GND IN1 GND IN2 IN3; not isolated, no external voltage)"
-			(at 40.64 193.04 0)
+		(property "Description" "Dry-contact inputs: 1 IN3, 2 IN2, 3 GND. Place directly next to J17 (pin 3 to J17 pin 1 = 5.00 mm) so the pair matches the former 5P layout"
+			(at 40.64 190.50 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10675,8 +10934,8 @@
 				)
 			)
 		)
-		(property "MPN" "DB127V-5.0-5P-GN-S"
-			(at 40.64 193.04 0)
+		(property "MPN" "DB127V-5.0-3P-GN-S"
+			(at 40.64 190.50 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10686,8 +10945,8 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 40.64 193.04 0)
+		(property "LCSC" "C395886"
+			(at 40.64 190.50 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10698,24 +10957,120 @@
 			)
 		)
 		(pin "1"
-			(uuid "25c30326-5e2f-4b05-b173-36d7d7c828b5")
+			(uuid "d946b217-c00c-45f1-8bbd-792951206d01")
 		)
 		(pin "2"
-			(uuid "e796fd57-88cd-4186-a9d7-1f81fc309880")
+			(uuid "f2bda596-cea6-45d0-96d2-7d272f571605")
 		)
 		(pin "3"
-			(uuid "b1205dd4-2b62-411d-8344-7a0af4219db1")
-		)
-		(pin "4"
-			(uuid "637ec69f-904f-46a7-87f9-3f17218696b1")
-		)
-		(pin "5"
-			(uuid "7cfc156c-6460-49ce-b65d-b7d994887d13")
+			(uuid "48a51210-f786-46b4-b5d8-1830d3f75ae1")
 		)
 		(instances
 			(project "rv1103_esp32"
 				(path "/b6373a08-caed-4040-b20a-c0bf93dadd7e/2c12f486-a7d7-4d08-b222-d171f52ae4c9"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 40.64 190.50 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3836c8e2-022d-4c07-939e-fb49cc41e637")
+		(property "Reference" "J17"
+			(at 36.83 194.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IN1"
+			(at 36.83 196.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Terminal:TerminalBlock_DB127V-5.0_1x02_P5.00mm"
+			(at 40.64 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dry-contact input: 1 IN1, 2 GND (former J10 pins 4,5). Butts against J10"
+			(at 40.64 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "DB127V-5.0-2P-GN-S"
+			(at 40.64 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C395885"
+			(at 40.64 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75c5b84e-aede-46cd-823f-e1ade44b6a1e")
+		)
+		(pin "2"
+			(uuid "9c4f304f-2e4c-411d-a9b5-f3fb83ed6dd0")
+		)
+		(instances
+			(project "rv1103_esp32"
+				(path "/b6373a08-caed-4040-b20a-c0bf93dadd7e/2c12f486-a7d7-4d08-b222-d171f52ae4c9"
+					(reference "J17")
 					(unit 1)
 				)
 			)

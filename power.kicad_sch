@@ -15892,7 +15892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal"
+		(property "Footprint" "Power:DC-005-A200_XUNPU_Horizontal"
 			(at 39.37 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -15925,7 +15925,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C720557"
 			(at 39.37 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -15936,7 +15936,7 @@
 				)
 			)
 		)
-		(property "MPN" "DCJ200-10-A"
+		(property "MPN" "DC-005-A200"
 			(at 39.37 49.53 0)
 			(hide yes)
 			(show_name no)
