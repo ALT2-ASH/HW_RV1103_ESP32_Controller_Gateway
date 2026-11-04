@@ -18555,7 +18555,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX3485EESA+T"
+		(property "Value" "SP3485EN-L/TR"
 			(at 74.93 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18577,7 +18577,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX3483-MAX3491.pdf"
+		(property "Datasheet" "https://www.maxlinear.com/ds/sp3485.pdf"
 			(at 72.39 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -18588,7 +18588,7 @@
 				)
 			)
 		)
-		(property "Description" "3.3V RS-485/RS-422 half-duplex transceiver 12Mbps, +-15kV ESD on bus pins"
+		(property "Description" "3.3V RS-485/RS-422 half-duplex transceiver 10Mbps (bus surge/ESD by D8 PSM712)"
 			(at 72.39 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -18599,7 +18599,7 @@
 				)
 			)
 		)
-		(property "MPN" "MAX3485EESA+T"
+		(property "MPN" "SP3485EN-L/TR"
 			(at 72.39 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -18610,7 +18610,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C9943"
+		(property "LCSC" "C8963"
 			(at 72.39 175.26 0)
 			(hide yes)
 			(show_name no)

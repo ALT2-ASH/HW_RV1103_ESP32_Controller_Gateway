@@ -12355,7 +12355,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2689964"
+		(property "LCSC" "C22464422"
 			(at 44.45 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -12366,7 +12366,7 @@
 				)
 			)
 		)
-		(property "MPN" "TYPE-C-31-D-06"
+		(property "MPN" "TYPE-C-31-D-06A"
 			(at 44.45 137.16 0)
 			(hide yes)
 			(show_name no)
