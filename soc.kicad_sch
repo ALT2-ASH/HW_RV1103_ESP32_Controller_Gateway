@@ -10756,7 +10756,7 @@
 				)
 			)
 		)
-		(property "MPN" "TL3342F450QG"
+		(property "MPN" "TS-1187A-B-A-B"
 			(at 142.24 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -10767,7 +10767,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2886897"
+		(property "LCSC" "C318884"
 			(at 142.24 113.03 0)
 			(hide yes)
 			(show_name no)

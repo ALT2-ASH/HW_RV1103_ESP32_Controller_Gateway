@@ -8,3 +8,5 @@ _autosave-*
 # local editor history (large)
 .history/
 .history_trim/
+production/gerber/
+production/*_raw.csv

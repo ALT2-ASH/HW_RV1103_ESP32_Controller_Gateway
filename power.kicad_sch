@@ -5417,13 +5417,23 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 52.07) (xy 214.63 52.07)
+			(xy 204.47 52.07) (xy 209.55 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b30c1bd0-d0b6-4257-aeab-03bb89619f95")
+		(uuid "a04ba001-aff7-49d8-92b8-1b41a9bad5cb")
+	)
+	(wire
+		(pts
+			(xy 209.55 52.07) (xy 214.63 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6547a716-f5e1-41cf-bfcd-43e52ce94f04")
 	)
 	(wire
 		(pts
@@ -10043,7 +10053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 92.71 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10065,7 +10075,7 @@
 				)
 			)
 		)
-		(property "Description" "100 V X7R: VIN_DC HF decoupling, rated above the 53.3 V TVS clamp"
+		(property "Description" "100 V X7R 0805: VIN_DC HF decoupling, rated above the 53.3 V TVS clamp"
 			(at 92.71 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10076,7 +10086,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C113803"
+		(property "LCSC" "C28233"
 			(at 92.71 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10087,7 +10097,7 @@
 				)
 			)
 		)
-		(property "Note" "50V X7R, closest to U3 VIN pin 2"
+		(property "Note" "100V X7R, closest to U5 VIN pin 2"
 			(at 92.71 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -14936,7 +14946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 214.63 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -14980,7 +14990,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 214.63 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -14991,7 +15001,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2932478"
+		(property "LCSC" "C96123"
 			(at 214.63 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -15002,7 +15012,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL32B476KPJNNNE"
+		(property "MPN" "CL31A476MPHNNNE"
 			(at 214.63 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -15769,7 +15779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 204.47 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -15813,7 +15823,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 204.47 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -15824,7 +15834,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2932478"
+		(property "LCSC" "C96123"
 			(at 204.47 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -15835,7 +15845,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL32B476KPJNNNE"
+		(property "MPN" "CL31A476MPHNNNE"
 			(at 204.47 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -15860,6 +15870,214 @@
 				)
 			)
 		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 209.55 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0fe7748f-99e9-432e-986a-8716ad397c12")
+		(property "Reference" "C90"
+			(at 212.09 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 212.09 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 209.55 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 209.55 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 209.55 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96123"
+			(at 209.55 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL31A476MPHNNNE"
+			(at 209.55 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea238bea-0750-4461-9377-009e4daa91e6")
+		)
+		(pin "2"
+			(uuid "4686d0a3-cab4-4c18-ba7d-e538776a45ac")
+		)
+		(instances
+			(project "rv1103_esp32"
+				(path "/b6373a08-caed-4040-b20a-c0bf93dadd7e/44d2ef68-2289-4651-8c68-8b42919dae48"
+					(reference "C90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0e5b2f80-f07c-496a-ab13-5f278aa38d5c")
+		(property "Reference" "#PWR300"
+			(at 209.55 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8ef6de1-935e-4a6f-8d5d-c6b15762535a")
+		)
+		(instances
+			(project "rv1103_esp32"
+				(path "/b6373a08-caed-4040-b20a-c0bf93dadd7e/44d2ef68-2289-4651-8c68-8b42919dae48"
+					(reference "#PWR300")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(junction
+		(at 209.55 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad399a3a-7815-4f1e-8995-117276fba98b")
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack_Switch")
@@ -16145,7 +16363,7 @@
 				)
 			)
 		)
-		(property "Value" "USBLC6-2SC6"
+		(property "Value" "SRV05-4"
 			(at 106.426 132.842 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16188,7 +16406,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7519"
+		(property "LCSC" "C7420376"
 			(at 99.06 137.16 0)
 			(hide yes)
 			(show_name no)
