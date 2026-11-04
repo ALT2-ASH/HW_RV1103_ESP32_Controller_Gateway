@@ -1,0 +1,103 @@
+(footprint "MouseBite_5mm_Gap3.873mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Breakaway tab drill pattern, 5 mm wide tab across a 3.873 mm gap: 6 x 0.5 mm NPTH at 0.8 mm pitch per row. Main-board row sits just outside the edge (terminal bodies reach it), panel row just inside its edge")
+	(tags "mouse bite breakaway tab")
+	(property "Reference" "MB**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MouseBite"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(pad "" np_thru_hole circle
+		(at -2.0 -2.1865)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.2 -2.1865)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at -0.4 -2.1865)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.4 -2.1865)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.2 -2.1865)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.0 -2.1865)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.0 1.6865)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.2 1.6865)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at -0.4 1.6865)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.4 1.6865)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.2 1.6865)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Mask")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.0 1.6865)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Mask")
+	)
+)

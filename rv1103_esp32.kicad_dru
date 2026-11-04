@@ -1,0 +1,55 @@
+(version 1)
+(rule "AC_to_LV_clearance"
+	(condition "(A.NetClass == 'AC_250V' || A.NetName == 'unconnected-(K*-Pad4)') && B.NetClass != 'AC_250V' && B.NetName != 'unconnected-(K*-Pad4)'")
+	(constraint clearance (min 5.5mm)))
+(rule "AC_to_LV_creepage"
+	(condition "(A.NetClass == 'AC_250V' || A.NetName == 'unconnected-(K*-Pad4)') && B.NetClass != 'AC_250V' && B.NetName != 'unconnected-(K*-Pad4)'")
+	(constraint creepage (min 8mm)))
+(rule "U7_QFN88_0p35_pitch"
+	(condition "A.Type == 'Pad' && B.Type == 'Pad' && A.memberOfFootprint('U7') && B.memberOfFootprint('U7')")
+	(constraint clearance (min 0.15mm)))
+(rule "U7_fanout"
+	(condition "A.intersectsCourtyard('U7')")
+	(constraint track_width (min 0.1mm) (opt 0.2mm))
+	(constraint clearance (min 0.1mm)))
+# USB pair: the gap check skips the U7 pin neck (0.35 pitch), USBLC6 U6 (1.9 mm pin pitch) and the J1 A/B rows.
+# Net length includes the J1 A7 orientation bridge (~4.8 mm track + 2 vias = 3.2 mm, a stub off the signal path), hence skew 8 mm;
+# uncoupled covers U6, J1 and the two via transitions.
+(rule "USB_90R_pair"
+	(condition "A.NetClass == 'USB_90R' && !A.intersectsCourtyard('U7') && !A.intersectsCourtyard('U6') && !A.intersectsCourtyard('J1')")
+	(constraint diff_pair_gap (min 0.13mm) (opt 0.15mm) (max 0.18mm)))
+(rule "USB_90R_length"
+	(condition "A.NetClass == 'USB_90R'")
+	(constraint diff_pair_uncoupled (max 15mm))
+	(constraint skew (max 8mm)))
+# Ethernet: the gap check skips the U7 pin neck (0.35 pitch), the 0R column R39/R40/R42/R60 (pads 1.05-1.25 mm apart) and the J5 pin field.
+# Skew is checked inside each pair. The jack side (RJ_*) cannot match: J5's two-row pinout puts each N pin one pin further
+# (pin 2 behind pin 1, pin 6 behind pin 3), ~5-7 mm, i.e. ~45 ps against the 8 ns 100BASE-TX symbol time.
+(rule "ETH_100R_pair"
+	(condition "A.NetClass == 'ETH_100R' && !A.intersectsCourtyard('U7') && !A.intersectsCourtyard('J5') && !A.intersectsCourtyard('R39') && !A.intersectsCourtyard('R40') && !A.intersectsCourtyard('R42') && !A.intersectsCourtyard('R60')")
+	(constraint diff_pair_gap (min 0.15mm) (opt 0.18mm) (max 0.22mm)))
+(rule "ETH_100R_length"
+	(condition "A.NetClass == 'ETH_100R'")
+	(constraint diff_pair_uncoupled (max 5mm))
+	(constraint skew (max 1.27mm) (within_diff_pairs)))
+(rule "ETH_100R_jack_side"
+	(condition "A.NetClass == 'ETH_100R' && A.NetName == '/Peripheral/RJ_*'")
+	(constraint diff_pair_uncoupled (max 12mm))
+	(constraint skew (max 8mm) (within_diff_pairs)))
+(rule "HS_pairs_outer_layers_only"
+	(layer inner)
+	(condition "A.NetClass == 'USB_90R' || A.NetClass == 'ETH_100R'")
+	(constraint disallow track))
+(rule "AC_area_LV_keepout"
+	(condition "A.insideArea('AC_ZONE') && A.NetClass != 'AC_250V'")
+	(constraint disallow track via))
+# SDIO: D2/D3 cross the bus on B.Cu, so net lengths differ by up to ~30 mm (CLK_WL is the 3 mm stub after R58).
+# 30 mm is about 0.2 ns, small against the SDIO high-speed (50 MHz) setup/hold budget of several ns.
+(rule "SDIO_skew"
+	(condition "A.NetClass == 'SDIO' && A.NetName != '/Peripheral/SDIO_CLK_WL'")
+	(constraint skew (max 30mm)))
+# FSPI: D2/D3 cross the bus on B.Cu and D0 runs round U8, so data lengths are 15-27 mm. FSPI_CLK is only the
+# U7 -> R33 part; the clock reaching U8 is FSPI_CLK + NCLK (~28 mm). 15 mm is about 0.1 ns against a 10 ns period at 100 MHz.
+(rule "FSPI_skew"
+	(condition "A.NetClass == 'FSPI' && A.NetName != '/FSPI_CLK'")
+	(constraint skew (max 15mm)))

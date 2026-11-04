@@ -1,0 +1,217 @@
+(footprint "BatteryHolder_MYOUNG_BS-05_CR2032_Vertical"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "MYOUNG BS-05 vertical CR2032 holder (THT, 3 pins). Copied from ESP32 Controller Gateway board (production-proven). Pad 1 = + (side clips), pad 2 = - (centre)")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d6ced2d8-540d-43d2-8b0f-92605f2b927c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BatteryHolder_MYOUNG_BS-05_CR2032_Vertical"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "39a20e90-6fac-48d6-b75a-2a5341dd191e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48a7feec-e2a5-4317-9f9f-3f1b4d21a0fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11c68e5e-e7e1-4d1d-8e1c-e42b75f302c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -11.6 -3.5)
+		(end -11.6 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bef545cb-77cf-4fcf-9b5d-01be12acdaf8")
+	)
+	(fp_line
+		(start -11.6 3.5)
+		(end 11.6 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6c189463-21fc-4167-9c3c-034d9fe39096")
+	)
+	(fp_line
+		(start -0.75 -4.5)
+		(end 0.75 -4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d06465eb-c5dd-4bd0-b63d-89d6b0bc580e")
+	)
+	(fp_line
+		(start -0.75 4.5)
+		(end 0.75 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ee9497d5-9974-412f-8d48-ba58c728f5c9")
+	)
+	(fp_line
+		(start 0 5.25)
+		(end 0 3.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "636b738b-539b-4da1-a919-fc0de793146f")
+	)
+	(fp_line
+		(start 11.6 -3.5)
+		(end -11.6 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a9b48989-0b07-453c-9256-568ac7863965")
+	)
+	(fp_line
+		(start 11.6 3.5)
+		(end 11.6 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "95a26023-c1ea-471d-9b86-fc9dc6a73d63")
+	)
+	(fp_line
+		(start -11.6 3.5)
+		(end -11.6 -3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "bef8820a-6f4b-4f5a-bb06-a08821b8074e")
+	)
+	(fp_line
+		(start -11.6 3.5)
+		(end 11.6 3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "cb4e0677-1e27-42a8-b878-6ab5c4b682c6")
+	)
+	(fp_line
+		(start 11.6 -3.5)
+		(end -11.6 -3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd446a04-f552-44d8-be7f-d739aace8dbd")
+	)
+	(fp_line
+		(start 11.6 3.5)
+		(end 11.6 -3.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c771d73-8651-4e94-aad3-420a2c30b9d8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "72527afd-ad6d-4e9e-a729-ffb5fe4db4cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5 1.85)
+		(size 3 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "47dba8cb-8db5-45a6-af6e-361d76885da3")
+	)
+	(pad "1" thru_hole circle
+		(at 5 1.85)
+		(size 3 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c2656b0-bbb3-43ff-8e7b-244b0b808a5b")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -1.85)
+		(size 3 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d286f093-2951-411e-8d5b-dca30b7716a4")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3dmodels/BAT-TH_CR2032-BS-5-1.step"
+		(offset
+			(xyz 0 0 14.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

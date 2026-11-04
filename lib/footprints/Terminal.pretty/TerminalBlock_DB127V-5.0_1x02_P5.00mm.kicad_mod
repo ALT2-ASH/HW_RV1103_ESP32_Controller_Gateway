@@ -1,0 +1,240 @@
+(footprint "TerminalBlock_DB127V-5.0_1x02_P5.00mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Dinkle-style pluggable/screw terminal DB127V-5.0-2P, 5.00 mm pitch (LCSC C395885 2P / C430624 4P), derived from TerminalBlock_bornier-2_P5.08mm")
+	(tags "terminal block bornier2")
+	(property "Reference" "REF**"
+		(at 6.4 -4.8 0)
+		(layer "F.SilkS")
+		(uuid "a0aedc61-f08a-4743-8821-bcce0fadceb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TerminalBlock_DB127V-5.0_1x02_P5.00mm"
+		(at 2.54 5.08 0)
+		(layer "F.Fab")
+		(uuid "4bbbe3dc-2f3d-4d8a-a003-6da23240f2b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15f68710-6313-4d59-8183-a2cb351e492d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe979322-ce39-4c3b-beb8-49f3e43207b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "TerminalBlock*:*")
+	(sheetname "/")
+	(sheetfile "ESP32_Controller_Gateway.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.54 -3.81)
+		(end -2.54 3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4793ee09-3cfd-4208-890c-e4aa2d557d51")
+	)
+	(fp_line
+		(start -2.54 3.81)
+		(end 7.54 3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d8db941-c0f4-4e25-abd3-c44e2e06fb43")
+	)
+	(fp_line
+		(start 7.54 -3.81)
+		(end -2.54 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ab6cbe9-5b11-49fb-904a-c830d8f4a8eb")
+	)
+	(fp_line
+		(start 7.54 2.54)
+		(end -2.54 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a2a315d-e450-4fee-a42f-d78606025cd8")
+	)
+	(fp_line
+		(start 7.54 3.81)
+		(end 7.54 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7795e8d6-a18e-40ef-9eb7-af05a5c499fa")
+	)
+	(fp_line
+		(start -2.71 -4)
+		(end -2.71 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "16b002d2-bf24-40b6-aa55-15fad6ed8053")
+	)
+	(fp_line
+		(start -2.71 -4)
+		(end 7.71 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f578bb9d-2d25-4e20-9613-0f6955c477ff")
+	)
+	(fp_line
+		(start 7.71 4)
+		(end -2.71 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce8e66ef-e998-46c5-baec-3d0d7ccb24a6")
+	)
+	(fp_line
+		(start 7.71 4)
+		(end 7.71 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "98204362-7989-4827-bf6c-d5666d476c7b")
+	)
+	(fp_line
+		(start -2.46 -3.75)
+		(end -2.46 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19d43ee6-3991-47dd-81d5-e73b4b6f72de")
+	)
+	(fp_line
+		(start -2.46 3.75)
+		(end 7.46 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b14a577c-eb8a-4fe7-8965-07360ba7fac2")
+	)
+	(fp_line
+		(start -2.41 2.55)
+		(end 7.41 2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc94fc8e-18cb-4a9a-ae2c-04cd62a8c918")
+	)
+	(fp_line
+		(start 7.46 -3.75)
+		(end -2.46 -3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c99acb0d-d86d-40ae-94f5-ccab99c9c78b")
+	)
+	(fp_line
+		(start 7.46 3.75)
+		(end 7.46 -3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "40024971-1255-49b8-85cd-11af2083ab5e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 0 0)
+		(layer "F.Fab")
+		(uuid "b7da13e1-2246-43be-a278-fed0c173e57d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 3 3)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "34776be8-c1e7-4b23-b7e0-9c1d50edc6d8")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 3 3)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f37dad6d-08ec-4690-854a-d2ff735ac976")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3dmodels/CONN-TH_2P-P5.08_L8.5-W10.2.step"
+		(offset
+			(xyz 2.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,8 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Flash") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/Flash.kicad_sym") (options "") (descr "SPI NAND flash (Winbond W25N02KV)"))
+	(lib (name "Power") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/Power.kicad_sym") (options "") (descr "DC-DC regulators (TI TLV62569DBVR)"))
+	(lib (name "Ethernet") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/Ethernet.kicad_sym") (options "") (descr "Ethernet connectors (HanRun HY911105AE)"))
+	(lib (name "RTC") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/RTC.kicad_sym") (options "") (descr "Real-time clocks (Epson RX8010SJ)"))
+	(lib (name "RV1103") (type "KiCad") (uri "${KIPRJMOD}/lib/symbols/RV1103.kicad_sym") (options "") (descr "Rockchip RV1103G1 multi-unit symbol"))
+)

@@ -1,0 +1,266 @@
+(footprint "TerminalBlock_bornier-4_P5.08mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "4-pin 5.08mm screw terminal (DORABO DB128V-5.08-4P), copied from ESP32 Controller Gateway board J18 (KiCad 8 bornier-4)")
+	(tags "terminal block bornier4")
+	(property "Reference" "REF**"
+		(at 3.5 -4.8 0)
+		(layer "F.SilkS")
+		(uuid "74b5655a-e2b3-4055-aa6d-b606d0d4fc32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TerminalBlock_bornier-4_P5.08mm"
+		(at 7.6 4.75 0)
+		(layer "F.Fab")
+		(uuid "d19325a2-6e35-470a-8c6f-7d773964898c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "778028cd-6da3-46cc-adad-3506d66c1b7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adac9a02-2938-431f-9594-4df8e84fcb94")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "TerminalBlock*:*")
+	(sheetname "/")
+	(sheetfile "ESP32_Controller_Gateway.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.54 -3.81)
+		(end -2.54 3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9043a78-467b-47d4-b1f9-eb896deb1da7")
+	)
+	(fp_line
+		(start -2.54 -3.81)
+		(end 17.78 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f4b99a5-f39f-4ddc-b391-a1503072975e")
+	)
+	(fp_line
+		(start -2.54 3.81)
+		(end 17.78 3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e905681f-f865-4074-bcfe-f5b5cf6d8b93")
+	)
+	(fp_line
+		(start 17.78 2.54)
+		(end -2.54 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54fa3152-94e1-45e3-92d0-366beb80e7f1")
+	)
+	(fp_line
+		(start 17.78 3.81)
+		(end 17.78 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c13388c-9f60-4b3f-adba-6fb7c087fa4b")
+	)
+	(fp_line
+		(start -2.73 -4)
+		(end -2.73 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a688197f-819c-42b3-9a6a-cfc7c9023c34")
+	)
+	(fp_line
+		(start -2.73 -4)
+		(end 17.97 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "392b668b-6ffb-4d94-8142-24e4915b3443")
+	)
+	(fp_line
+		(start 17.97 4)
+		(end -2.73 4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8afd6f87-c171-488e-ade5-e8537347f7e8")
+	)
+	(fp_line
+		(start 17.97 4)
+		(end 17.97 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ec3bdfa2-ec44-4443-bcc8-5dbb83894ac1")
+	)
+	(fp_line
+		(start -2.48 -3.75)
+		(end 17.72 -3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "815ea85f-d6f8-4844-8498-1bd2c054482b")
+	)
+	(fp_line
+		(start -2.48 2.55)
+		(end 17.72 2.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cdba5789-635a-4d85-8f1d-4e9508e10dcc")
+	)
+	(fp_line
+		(start -2.48 3.75)
+		(end -2.48 -3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2b7b09ec-720e-41a8-b664-3bf30dc75b76")
+	)
+	(fp_line
+		(start -2.43 3.75)
+		(end -2.48 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12c6cba8-eebe-44fd-902c-4313a9875dc7")
+	)
+	(fp_line
+		(start 17.72 -3.75)
+		(end 17.72 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a27a4936-3713-4670-b84e-ea68a82bb8e5")
+	)
+	(fp_line
+		(start 17.72 3.75)
+		(end -2.43 3.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d32fbb6-a422-4efb-a216-d32960d78696")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.62 0 0)
+		(layer "F.Fab")
+		(uuid "9093d4dc-6100-4190-a5fe-fbeac0405acc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 3 3)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c4c7c3ef-fd77-49d5-8a94-63dc7287af6c")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 3 3)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7172d103-9344-407f-9fb2-e97b9ba72740")
+	)
+	(pad "3" thru_hole circle
+		(at 10.16 0)
+		(size 3 3)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8b3649f6-681e-45e4-bc2f-2c6cc6c86b3a")
+	)
+	(pad "4" thru_hole circle
+		(at 15.24 0)
+		(size 3 3)
+		(drill 1.52)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e4538ae9-8ce6-4554-8ea1-8fa62dadfc7b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3dmodels/CONN-TH_4P-P5.00_DB127V-5.0-4P-GN-S.step"
+		(offset
+			(xyz 7.62 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
