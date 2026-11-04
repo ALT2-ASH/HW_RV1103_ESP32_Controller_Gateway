@@ -6688,7 +6688,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2845255"
+		(property "LCSC" "C2845266"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6705,6 +6705,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8710cd3c-bdf4-4b4d-8de8-771351b31593")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TC-6610-17-260G"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d8cd744-a18e-4e87-bb08-4bc602f757ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7000,12 +7012,12 @@
 			(uuid "6afce2dd-9385-4f47-9146-7404ae4b1445")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H8mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H13mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 1.307692308)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -12876,6 +12888,18 @@
 				)
 			)
 		)
+		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab44576b-0d62-4da4-bd82-cd30461700a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/82009692-0e23-4812-826c-2b1bee45390b/607c68ea-7b37-44ca-8edb-24e2ac906e33")
 		(sheetname "/Panel/")
@@ -13037,7 +13061,18 @@
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
 			(offset
+				(xyz 0 0 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/3dmodels/LED_spacer_4x10.wrl"
+			(offset
+				(xyz 1.27 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -19444,7 +19479,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2845255"
+		(property "LCSC" "C2845266"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19461,6 +19496,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2f151b10-b266-4664-b5a8-f6fe0506b9fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TC-6610-17-260G"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "590b4f0c-4a12-4270-88b3-2c63216b902d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19756,12 +19803,12 @@
 			(uuid "57b000a3-66b5-40ec-8a8c-568586ae3948")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H8mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H13mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 1.307692308)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -22894,7 +22941,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2845255"
+		(property "LCSC" "C2845266"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22911,6 +22958,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8f589628-0ba4-4738-8b70-9bab6d9177e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TC-6610-17-260G"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90d8d41d-cf9a-4145-8450-3761acbcea17")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23206,12 +23265,12 @@
 			(uuid "4ca7e966-94f0-4ffd-a82f-aa65edd92835")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H8mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H13mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 1.307692308)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -28773,6 +28832,18 @@
 				)
 			)
 		)
+		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bd908c2-4949-426c-b794-6da56484ce5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/82009692-0e23-4812-826c-2b1bee45390b/2487ab8e-6138-4ba3-9f99-81368b761c91")
 		(sheetname "/Panel/")
@@ -28934,7 +29005,18 @@
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
 			(offset
+				(xyz 0 0 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/3dmodels/LED_spacer_4x10.wrl"
+			(offset
+				(xyz 1.27 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -30526,6 +30608,18 @@
 				)
 			)
 		)
+		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a469b596-c393-4bba-b828-ce9b3ea33b18")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/82009692-0e23-4812-826c-2b1bee45390b/e77d28b8-a466-44dd-a04f-b0691ce3428c")
 		(sheetname "/Panel/")
@@ -30687,7 +30781,18 @@
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
 			(offset
+				(xyz 0 0 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/3dmodels/LED_spacer_4x10.wrl"
+			(offset
+				(xyz 1.27 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -38425,7 +38530,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2845255"
+		(property "LCSC" "C2845266"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -38442,6 +38547,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e98dbb93-b175-442e-8dca-fdcb7b78380f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TC-6610-17-260G"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52a8a3a3-aebc-4351-ae67-a5070fd906e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38737,12 +38854,12 @@
 			(uuid "0c782af8-4848-46b2-943e-7d2fb15f1e3f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H8mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H13mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 1.307692308)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -39999,7 +40116,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2845255"
+		(property "LCSC" "C2845266"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -40016,6 +40133,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "91811212-d71a-4660-ac66-8942fff6e200")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TC-6610-17-260G"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed983e17-bc7f-4e3f-80aa-72bda5064212")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40311,12 +40440,12 @@
 			(uuid "41863adc-7f84-4c4f-a76b-495bc18bf278")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H8mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H13mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 1.307692308)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -49267,6 +49396,18 @@
 				)
 			)
 		)
+		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8454ef30-2f4f-41ba-bbf3-19cd4a4d9441")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/82009692-0e23-4812-826c-2b1bee45390b/4b7398c3-2c49-4fae-907f-c555394cb9bd")
 		(sheetname "/Panel/")
@@ -49428,7 +49569,18 @@
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
 			(offset
+				(xyz 0 0 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/3dmodels/LED_spacer_4x10.wrl"
+			(offset
+				(xyz 1.27 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -51056,6 +51208,18 @@
 				)
 			)
 		)
+		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2fd0a4d3-a79f-4861-b8df-3d7e1f43d379")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/82009692-0e23-4812-826c-2b1bee45390b/47e414d0-248f-4781-8756-3bedd5124d97")
 		(sheetname "/Panel/")
@@ -51217,7 +51381,18 @@
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
 			(offset
+				(xyz 0 0 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/3dmodels/LED_spacer_4x10.wrl"
+			(offset
+				(xyz 1.27 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -52298,6 +52473,18 @@
 				)
 			)
 		)
+		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ccd49808-a470-4ee0-a9c0-3bb1a220379d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/82009692-0e23-4812-826c-2b1bee45390b/4a5d2953-deaa-448f-98fd-92907c9f702a")
 		(sheetname "/Panel/")
@@ -52459,7 +52646,18 @@
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
 			(offset
+				(xyz 0 0 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/3dmodels/LED_spacer_4x10.wrl"
+			(offset
+				(xyz 1.27 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -53032,6 +53230,18 @@
 				)
 			)
 		)
+		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "643a5ced-f373-4cbb-9c95-fa60ae08ada1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/82009692-0e23-4812-826c-2b1bee45390b/e26c7101-2ae4-4a5a-a1e0-88c4ffa8f9a6")
 		(sheetname "/Panel/")
@@ -53193,7 +53403,18 @@
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
 			(offset
+				(xyz 0 0 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/3dmodels/LED_spacer_4x10.wrl"
+			(offset
+				(xyz 1.27 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -53695,7 +53916,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2845255"
+		(property "LCSC" "C2845266"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -53712,6 +53933,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9bc8b902-9b43-445b-a599-d064bf95f91e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TC-6610-17-260G"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "daa47730-3cfb-4b76-b3ea-7d280f275c77")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54007,12 +54240,12 @@
 			(uuid "e11eb98d-d384-4197-acd4-a22f2448ba6d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H8mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H13mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 1.307692308)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -55406,7 +55639,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2845255"
+		(property "LCSC" "C2845266"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -55423,6 +55656,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fa3cc9ef-d2bb-4937-b75f-066d08796a5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TC-6610-17-260G"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfe5f0b1-6281-42af-afe0-0d95200e5fa6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55718,12 +55963,12 @@
 			(uuid "073aa132-ba13-4291-aefe-936fa9bcd805")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H8mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H13mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 1.307692308)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -60112,6 +60357,18 @@
 				)
 			)
 		)
+		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "befcf778-e2bd-441c-b74c-fda96938dec1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/82009692-0e23-4812-826c-2b1bee45390b/6ad6709c-4918-421a-8e05-13475b10acd9")
 		(sheetname "/Panel/")
@@ -60273,7 +60530,18 @@
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
 			(offset
+				(xyz 0 0 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/3dmodels/LED_spacer_4x10.wrl"
+			(offset
+				(xyz 1.27 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -61394,7 +61662,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2845255"
+		(property "LCSC" "C2845266"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -61411,6 +61679,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3dac7763-7189-45c0-9bce-716bafd479b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TC-6610-17-260G"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39b4310c-217e-42a3-ad79-45653043c308")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61706,12 +61986,12 @@
 			(uuid "4a965ea5-7774-4d5f-a2fb-a3efd6de1dca")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H8mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H13mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 1.307692308)
 			)
 			(rotate
 				(xyz 0 0 0)

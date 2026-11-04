@@ -4507,6 +4507,17 @@
 				)
 			)
 		)
+		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+			(at 128.27 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Note" "3 mm, long legs into opaque tube (old panel part)"
 			(at 128.27 152.4 0)
 			(hide yes)
@@ -4597,7 +4608,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C2845255"
+		(property "LCSC" "C2845266"
+			(at 30.48 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TC-6610-17-260G"
 			(at 30.48 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -4942,6 +4964,17 @@
 				)
 			)
 		)
+		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+			(at 67.31 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Note" "3 mm, long legs into opaque tube (old panel part)"
 			(at 67.31 101.6 0)
 			(hide yes)
@@ -5044,6 +5077,17 @@
 			)
 		)
 		(property "MPN" "204-10SURD/S530-A3-L"
+			(at 97.79 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
 			(at 97.79 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5267,6 +5311,17 @@
 				)
 			)
 		)
+		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+			(at 128.27 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Note" "3 mm, long legs into opaque tube (old panel part)"
 			(at 128.27 101.6 0)
 			(hide yes)
@@ -5357,7 +5412,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C2845255"
+		(property "LCSC" "C2845266"
+			(at 60.96 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TC-6610-17-260G"
 			(at 60.96 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5700,6 +5766,17 @@
 				)
 			)
 		)
+		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+			(at 36.83 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Note" "3 mm, long legs into opaque tube (old panel part)"
 			(at 36.83 101.6 0)
 			(hide yes)
@@ -5802,6 +5879,17 @@
 			)
 		)
 		(property "MPN" "204-10SURD/S530-A3-L"
+			(at 67.31 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
 			(at 67.31 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6003,7 +6091,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C2845255"
+		(property "LCSC" "C2845266"
+			(at 91.44 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TC-6610-17-260G"
 			(at 91.44 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6585,7 +6684,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C2845255"
+		(property "LCSC" "C2845266"
+			(at 121.92 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TC-6610-17-260G"
 			(at 121.92 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6686,7 +6796,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C2845255"
+		(property "LCSC" "C2845266"
+			(at 30.48 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TC-6610-17-260G"
 			(at 30.48 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7295,7 +7416,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C2845255"
+		(property "LCSC" "C2845266"
+			(at 121.92 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TC-6610-17-260G"
 			(at 121.92 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -7519,6 +7651,17 @@
 				)
 			)
 		)
+		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+			(at 36.83 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Note" "3 mm, long legs into opaque tube (old panel part)"
 			(at 36.83 152.4 0)
 			(hide yes)
@@ -7609,7 +7752,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C2845255"
+		(property "LCSC" "C2845266"
+			(at 60.96 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TC-6610-17-260G"
 			(at 60.96 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -7823,6 +7977,17 @@
 			)
 		)
 		(property "MPN" "204-10SURD/S530-A3-L"
+			(at 97.79 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
 			(at 97.79 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8457,7 +8622,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C2845255"
+		(property "LCSC" "C2845266"
+			(at 91.44 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TC-6610-17-260G"
 			(at 91.44 170.18 0)
 			(hide yes)
 			(show_name no)
