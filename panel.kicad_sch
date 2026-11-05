@@ -2812,7 +2812,7 @@
 		)
 		(uuid "6f6939e6-e5ef-4d6a-8af0-922b0671aa0e")
 	)
-	(text "LED/button panel (separate PCB): bottom sockets J201/J202/J203 stack onto main J10/J11/J13 (approx. 11 mm)"
+	(text "LED/button panel (separate PCB): bottom sockets J201/J202/J203 stack onto main J11/J12/J13 (approx. 11 mm)"
 		(exclude_from_sim no)
 		(at 25.4 25.4 0)
 		(effects
@@ -2834,7 +2834,7 @@
 		)
 		(uuid "dbc11802-f3ab-4111-95ae-e88bb36ca973")
 	)
-	(text "Panel-local nets PNL_*. Pin-to-pin: J201=J10, J202=J11, J203=J13"
+	(text "Panel-local nets PNL_*. Pin-to-pin: J201=J11, J202=J12, J203=J13"
 		(exclude_from_sim no)
 		(at 25.4 31.75 0)
 		(effects
@@ -4432,7 +4432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2487ab8e-6138-4ba3-9f99-81368b761c91")
-		(property "Reference" "D209"
+		(property "Reference" "D208"
 			(at 128.27 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4538,7 +4538,7 @@
 		(instances
 			(project "rv1103_esp32"
 				(path "/b6373a08-caed-4040-b20a-c0bf93dadd7e/82009692-0e23-4812-826c-2b1bee45390b"
-					(reference "D209")
+					(reference "D208")
 					(unit 1)
 				)
 			)
@@ -4709,7 +4709,7 @@
 				)
 			)
 		)
-		(property "Description" "Panel socket, mates main J10 (bottom side)"
+		(property "Description" "Panel socket, mates main J11 (bottom side)"
 			(at 60.96 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5614,7 +5614,7 @@
 				)
 			)
 		)
-		(property "Description" "Panel socket, mates main J11 (bottom side)"
+		(property "Description" "Panel socket, mates main J12 (bottom side)"
 			(at 162.56 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5814,7 +5814,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ad6709c-4918-421a-8e05-13475b10acd9")
-		(property "Reference" "D207"
+		(property "Reference" "D206"
 			(at 67.31 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5920,7 +5920,7 @@
 		(instances
 			(project "rv1103_esp32"
 				(path "/b6373a08-caed-4040-b20a-c0bf93dadd7e/82009692-0e23-4812-826c-2b1bee45390b"
-					(reference "D207")
+					(reference "D206")
 					(unit 1)
 				)
 			)
@@ -7158,7 +7158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9a17317-abce-47ea-80f6-f56ec8a98f6f")
-		(property "Reference" "D205"
+		(property "Reference" "D209"
 			(at 269.24 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7245,7 +7245,7 @@
 		(instances
 			(project "rv1103_esp32"
 				(path "/b6373a08-caed-4040-b20a-c0bf93dadd7e/82009692-0e23-4812-826c-2b1bee45390b"
-					(reference "D205")
+					(reference "D209")
 					(unit 1)
 				)
 			)
@@ -7576,7 +7576,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e26c7101-2ae4-4a5a-a1e0-88c4ffa8f9a6")
-		(property "Reference" "D206"
+		(property "Reference" "D205"
 			(at 36.83 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7682,7 +7682,7 @@
 		(instances
 			(project "rv1103_esp32"
 				(path "/b6373a08-caed-4040-b20a-c0bf93dadd7e/82009692-0e23-4812-826c-2b1bee45390b"
-					(reference "D206")
+					(reference "D205")
 					(unit 1)
 				)
 			)
@@ -7912,7 +7912,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e77d28b8-a466-44dd-a04f-b0691ce3428c")
-		(property "Reference" "D208"
+		(property "Reference" "D207"
 			(at 97.79 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8018,7 +8018,7 @@
 		(instances
 			(project "rv1103_esp32"
 				(path "/b6373a08-caed-4040-b20a-c0bf93dadd7e/82009692-0e23-4812-826c-2b1bee45390b"
-					(reference "D208")
+					(reference "D207")
 					(unit 1)
 				)
 			)

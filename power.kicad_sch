@@ -3841,7 +3841,7 @@
 		)
 		(uuid "2b14ba2f-16dc-4edb-a82d-3fcd7833fa4d")
 	)
-	(text "DC in 12-24 V (J1 barrel, center +, or J5 V+) -> U3 TPS54360B 5.24 V / 3.5 A (644 kHz, UVLO on 8.2 V / off 6.6 V)"
+	(text "DC in 12-24 V (J1 barrel, center +, or J7 V+) -> U1 TPS54360B 5.24 V / 3.5 A (644 kHz, UVLO on 8.2 V / off 6.6 V)"
 		(exclude_from_sim no)
 		(at 39.37 31.75 0)
 		(effects
@@ -3852,7 +3852,7 @@
 		)
 		(uuid "633e078d-1a42-4f14-8426-75eab4d28737")
 	)
-	(text "POWER-UP TIMING (EN delays)\nU3 TPS54360B EN/UVLO (VEN 1.2 V, Ip 1.2 uA, Ih 3.4 uA):\n  Vstart = 1.2 + R6 x (1.2/R7 - Ip) = 1.2 + 470k x 14.8 uA = 8.16 V\n  Vstop  = 1.2 + R6 x (1.2/R7 - Ip - Ih) = 1.2 + 470k x 11.4 uA = 6.56 V\n  then internal soft-start 1024 / fsw = 1024 / 644 kHz = 1.6 ms\nTLV62569 EN RC from VCC5V0_SYS: t = R x C x ln(Vsys / (Vsys - Vth))\n  Vsys = 4.85 V (DC) / approx. 5.0 V (USB), Vth = 0.95 - 1.2 V, soft-start tSS = 0.8 ms\n  0V9  U1: R1 10k, no C       -> on with VCC5V0_SYS, out by approx. 0.8 ms\n  1V8  U5: R12 100k x C14 100nF (tau 10 ms) -> EN 2.2-2.8 ms, out by approx. 3.0-3.6 ms\n  3V3  U4: R13 200k x C15 100nF (tau 20 ms) -> EN 4.4-5.7 ms, out by approx. 5.2-6.5 ms\nOrder 0V9 -> 1V8 (VCC_DDR via FB3) -> 3V3 (core before IO). RV1103G1 has no nPOR pin."
+	(text "POWER-UP TIMING (EN delays)\nU1 TPS54360B EN/UVLO (VEN 1.2 V, Ip 1.2 uA, Ih 3.4 uA):\n  Vstart = 1.2 + R1 x (1.2/R5 - Ip) = 1.2 + 470k x 14.8 uA = 8.16 V\n  Vstop  = 1.2 + R1 x (1.2/R5 - Ip - Ih) = 1.2 + 470k x 11.4 uA = 6.56 V\n  then internal soft-start 1024 / fsw = 1024 / 644 kHz = 1.6 ms\nTLV62569 EN RC from VCC5V0_SYS: t = R x C x ln(Vsys / (Vsys - Vth))\n  Vsys = 4.85 V (DC) / approx. 5.0 V (USB), Vth = 0.95 - 1.2 V, soft-start tSS = 0.8 ms\n  0V9  U4: R15 10k, no C       -> on with VCC5V0_SYS, out by approx. 0.8 ms\n  1V8  U5: R16 100k x C23 100nF (tau 10 ms) -> EN 2.2-2.8 ms, out by approx. 3.0-3.6 ms\n  3V3  U2: R9 200k x C15 100nF (tau 20 ms) -> EN 4.4-5.7 ms, out by approx. 5.2-6.5 ms\nOrder 0V9 -> 1V8 (VCC_DDR via FB1) -> 3V3 (core before IO). RV1103G1 has no nPOR pin."
 		(exclude_from_sim no)
 		(at 254 66.04 0)
 		(effects
@@ -3874,7 +3874,7 @@
 		)
 		(uuid "82fe22fb-ee22-46a9-a2a7-e6392e16e5c4")
 	)
-	(text "Protection: D1 reverse / F1 PTC 2 A (shared by J1 and J5 V+ = VIN_RAW) / D2 TVS. 5V_DC -> relays, D5 -> VCC5V0_SYS (USB via Q1, DC first)"
+	(text "Protection: D1 reverse / F1 PTC 2 A (shared by J1 and J7 V+ = VIN_RAW) / D2 TVS. 5V_DC -> relays, D3 -> VCC5V0_SYS (USB via Q1, DC first)"
 		(exclude_from_sim no)
 		(at 39.37 36.83 0)
 		(effects
@@ -10305,7 +10305,7 @@
 				)
 			)
 		)
-		(property "Note" "100V X7R, closest to U5 VIN pin 2"
+		(property "Note" "100V X7R, closest to U1 VIN pin 2"
 			(at 92.71 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -15487,7 +15487,7 @@
 				)
 			)
 		)
-		(property "Description" "Q1 gate pull-down: holds 5V_DC low on USB-only (D5 SS54 hot reverse leakage)"
+		(property "Description" "Q1 gate pull-down: holds 5V_DC low on USB-only (D3 SS54 hot reverse leakage)"
 			(at 101.6 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -15829,7 +15829,7 @@
 				)
 			)
 		)
-		(property "Note" "Ihold 2A@25C (~1.1A@70C); worst input 0.8A @10.8V; Vmax 60V > SMBJ33A Vbr 40.6V; keep away from U3/D5/relays"
+		(property "Note" "Ihold 2A@25C (~1.1A@70C); worst input 0.8A @10.8V; Vmax 60V > SMBJ33A Vbr 40.6V; keep away from U1/D3/relays"
 			(at 66.04 46.99 0)
 			(hide yes)
 			(show_name no)

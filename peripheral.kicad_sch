@@ -6810,7 +6810,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "RTC backup: CR2032 BT1 -> R38 1k -> J13 pin 2 -> panel RX8900 (D209 diode-OR)"
+	(text "RTC backup: CR2032 BT1 -> R38 1k -> J13 pin 6 -> panel RX8900 (D209 diode-OR)"
 		(exclude_from_sim no)
 		(at 40.64 38.1 0)
 		(effects
@@ -6843,7 +6843,7 @@
 		)
 		(uuid "11f4ed44-cce1-41d1-89d2-e70f7424fe24")
 	)
-	(text "J5 (left to right): V+, GND, A, B. Path: SM712 -> termination -> bias -> 10R -> MAX3485"
+	(text "J7 (left to right): V+, GND, A, B. Path: PSM712 -> termination -> bias -> 10R -> SP3485"
 		(exclude_from_sim no)
 		(at 108.712 156.972 0)
 		(effects
@@ -6854,7 +6854,7 @@
 		)
 		(uuid "14e40850-ee2c-4920-beec-70defb63a209")
 	)
-	(text "ESP32 reset/straps: EN RC 2.2k/1uF, IO9 (BOOT) 2.2k + IO4 10k pull-up (spare), IO8 = 1 (SCL pull-up), IO5 = 0 (via R97/R96)"
+	(text "ESP32 reset/straps: EN RC 2.2k/1uF, IO9 (BOOT) 2.2k + IO4 10k pull-up (spare), IO8 = 1 (SCL pull-up), IO5 = 0 (via R91/R92)"
 		(exclude_from_sim no)
 		(at 170.18 113.03 0)
 		(effects
@@ -6876,7 +6876,7 @@
 		)
 		(uuid "1bc31633-b9cf-4ea8-a6cf-e7de32f3209c")
 	)
-	(text "JP1 closed = 120R termination (bus ends only). R39/R40 fail-safe bias (this board = master)"
+	(text "JP1 closed = 120R termination (bus ends only). R53/R59 fail-safe bias (this board = master)"
 		(exclude_from_sim no)
 		(at 29.21 147.32 0)
 		(effects
@@ -6909,7 +6909,7 @@
 		)
 		(uuid "2fca8d9e-5425-4c59-9779-dbc300dbdabe")
 	)
-	(text "LM321A supply: VIN_DC direct, C74 local decoupling (LM321A 36 V max operating, 40 V abs; input TVS SMBJ33A)"
+	(text "LM321A supply: VIN_DC direct, C75 local decoupling (LM321A 36 V max operating, 40 V abs; input TVS SMBJ33A)"
 		(exclude_from_sim no)
 		(at 266.7 226.06 0)
 		(effects
@@ -6942,7 +6942,7 @@
 		)
 		(uuid "35a984c5-d34b-4973-b705-9fa2a9895a77")
 	)
-	(text "J7 (left to right): GND, DIM1. J9 (left to right): 3V3, GND, SCL, SDA"
+	(text "J9 (left to right): GND, DIM1. J10 (left to right): 3V3, GND, SCL, SDA"
 		(exclude_from_sim no)
 		(at 24.13 273.05 0)
 		(effects
@@ -6953,7 +6953,7 @@
 		)
 		(uuid "3ea96d80-35a5-4bc7-800c-ae16c0ba20cc")
 	)
-	(text "ESP32 header J16, DNP (fit when needed): 1 GND, 2 EN, 3 BOOT, 4 TXD, 5 RXD. Normally the RV1103 flashes the ESP (UART4 + EN/BOOT GPIO); for manual use hold BOOT Low + pulse EN = download mode. No 5 V on the header."
+	(text "ESP32 header J8, DNP (fit when needed): 1 GND, 2 EN, 3 BOOT, 4 TXD, 5 RXD. Normally the RV1103 flashes the ESP (UART4 + EN/BOOT GPIO); for manual use hold BOOT Low + pulse EN = download mode. No 5 V on the header."
 		(exclude_from_sim no)
 		(at 254 200.66 0)
 		(effects
@@ -6975,7 +6975,7 @@
 		)
 		(uuid "59df080e-717d-4de5-a938-e60700f2f7aa")
 	)
-	(text "R58: place next to U7 (SDIO_CLK source termination)"
+	(text "R56: place next to U6 (SDIO_CLK source termination)"
 		(exclude_from_sim no)
 		(at 309.88 175.26 0)
 		(effects
@@ -6986,7 +6986,7 @@
 		)
 		(uuid "96944b45-4d5f-47c1-83c1-5e8425c150c4")
 	)
-	(text "RS-485: MAX3485, UART5_M1, DE/RE = UART5_RTSN (Linux rs485 mode)"
+	(text "RS-485: SP3485, UART5_M1, DE/RE = UART5_RTSN (Linux rs485 mode)"
 		(exclude_from_sim no)
 		(at 29.21 142.24 0)
 		(effects
@@ -6997,7 +6997,7 @@
 		)
 		(uuid "a70b386f-87e2-4a83-a165-d069458d7f97")
 	)
-	(text "R38: current limit if the header/panel shorts. TP15 = battery voltage"
+	(text "R38: current limit if the header/panel shorts. TP8 = battery voltage"
 		(exclude_from_sim no)
 		(at 40.64 43.18 0)
 		(effects
