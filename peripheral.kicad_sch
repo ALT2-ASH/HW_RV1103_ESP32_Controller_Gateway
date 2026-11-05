@@ -11907,7 +11907,7 @@
 				)
 			)
 		)
-		(property "Value" "SRV05-4"
+		(property "Value" "USBLC6-2SC6"
 			(at 85.598 257.302 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11950,7 +11950,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7420376"
+		(property "LCSC" "C7519"
 			(at 76.2 247.65 0)
 			(hide yes)
 			(show_name no)
