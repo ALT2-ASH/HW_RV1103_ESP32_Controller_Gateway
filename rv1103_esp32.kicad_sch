@@ -1836,7 +1836,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "941ded34-5293-4a79-a197-029f220e08f5")
-		(property "Reference" "H1"
+		(property "Reference" "H4"
 			(at 317.5 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1894,7 +1894,7 @@
 		(instances
 			(project "rv1103_esp32"
 				(path "/b6373a08-caed-4040-b20a-c0bf93dadd7e"
-					(reference "H1")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -1986,7 +1986,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "b6b1b454-de2a-4c1c-8999-fa5c11766a3f")
-		(property "Reference" "H3"
+		(property "Reference" "H1"
 			(at 279.4 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2044,7 +2044,7 @@
 		(instances
 			(project "rv1103_esp32"
 				(path "/b6373a08-caed-4040-b20a-c0bf93dadd7e"
-					(reference "H3")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -2061,7 +2061,7 @@
 		(in_pos_files no)
 		(dnp no)
 		(uuid "dea7f59d-7b84-4fe0-a866-c7f2e7980c0b")
-		(property "Reference" "H4"
+		(property "Reference" "H3"
 			(at 304.8 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2119,7 +2119,7 @@
 		(instances
 			(project "rv1103_esp32"
 				(path "/b6373a08-caed-4040-b20a-c0bf93dadd7e"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
