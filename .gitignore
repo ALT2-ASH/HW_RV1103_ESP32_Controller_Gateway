@@ -10,3 +10,5 @@ _autosave-*
 .history_trim/
 production/gerber/
 production/*_raw.csv
+production_*/gerber/
+production_*/*_raw.csv
