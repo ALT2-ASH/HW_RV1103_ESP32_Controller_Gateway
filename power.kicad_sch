@@ -3874,7 +3874,7 @@
 		)
 		(uuid "82fe22fb-ee22-46a9-a2a7-e6392e16e5c4")
 	)
-	(text "Protection: D1 reverse / F1 PTC 2 A (shared by J1 and J7 V+ = VIN_RAW) / D2 TVS. 5V_DC -> relays, D3 -> VCC5V0_SYS (USB via Q1, DC first)"
+	(text "Protection: D1 reverse / F1 PTC 2.5 A (shared by J1 and J7 V+ = VIN_RAW) / D2 TVS. 5V_DC -> relays, D3 -> VCC5V0_SYS (USB via Q1, DC first)"
 		(exclude_from_sim no)
 		(at 39.37 36.83 0)
 		(effects
@@ -14320,7 +14320,7 @@
 				)
 			)
 		)
-		(property "Value" "SS38"
+		(property "Value" "SS510"
 			(at 54.61 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14352,7 +14352,7 @@
 				)
 			)
 		)
-		(property "Description" "Reverse polarity + diode-OR, SS38 80V 3A (input PTC 2A)"
+		(property "Description" "Reverse polarity + diode-OR, SS510 100V 5A (covers PTC 2.5A hold / 5A trip band)"
 			(at 54.61 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14363,7 +14363,7 @@
 				)
 			)
 		)
-		(property "MPN" "SS38"
+		(property "MPN" "SS510"
 			(at 54.61 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14374,7 +14374,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C18199196"
+		(property "LCSC" "C65010"
 			(at 54.61 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15786,7 +15786,7 @@
 				)
 			)
 		)
-		(property "Value" "PTC 2A 60V"
+		(property "Value" "PTC 2.5A 48V"
 			(at 66.04 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15829,7 +15829,7 @@
 				)
 			)
 		)
-		(property "Note" "Ihold 2A@25C (~1.1A@70C); worst input 0.8A @10.8V; Vmax 60V > SMBJ33A Vbr 40.6V; keep away from U1/D3/relays"
+		(property "Note" "Ihold 2.5A@25C (~1.4A@85C); trip 5A; worst input 0.8A @10.8V; Vmax 48V > SMBJ33A Vbr 40.6V; keep away from U1/D3/relays"
 			(at 66.04 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15840,7 +15840,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C49326266"
+		(property "LCSC" "C49326264"
 			(at 66.04 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15851,7 +15851,7 @@
 				)
 			)
 		)
-		(property "MPN" "2920L200/60GR"
+		(property "MPN" "2920L250/48GR"
 			(at 66.04 46.99 0)
 			(hide yes)
 			(show_name no)

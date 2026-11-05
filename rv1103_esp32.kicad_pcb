@@ -11365,7 +11365,7 @@
 				)
 			)
 		)
-		(property "Value" "SS38"
+		(property "Value" "SS510"
 			(at 3.85 2.1 0)
 			(layer "F.Fab")
 			(uuid "55d41dfc-d74d-4ffd-89b5-2cdabfd5642e")
@@ -11389,7 +11389,7 @@
 				)
 			)
 		)
-		(property "Description" "Reverse polarity + diode-OR, SS38 80V 3A (input PTC 2A)"
+		(property "Description" "Reverse polarity + diode-OR, SS510 100V 5A (covers PTC 2.5A hold / 5A trip band)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11402,7 +11402,7 @@
 				)
 			)
 		)
-		(property "MPN" "SS38"
+		(property "MPN" "SS510"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11415,7 +11415,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C18199196"
+		(property "LCSC" "C65010"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58171,7 +58171,7 @@
 				)
 			)
 		)
-		(property "Value" "PTC 2A 60V"
+		(property "Value" "PTC 2.5A 48V"
 			(at 0 3.68 0)
 			(layer "F.Fab")
 			(uuid "5d4fda00-022e-416e-ae63-10dbe1159904")
@@ -58204,7 +58204,7 @@
 				)
 			)
 		)
-		(property "Note" "Ihold 2A@25C (~1.1A@70C); worst input 0.8A @10.8V; Vmax 60V > SMBJ33A Vbr 40.6V; keep away from U1/D3/relays"
+		(property "Note" "Ihold 2.5A@25C (~1.4A@85C); trip 5A; worst input 0.8A @10.8V; Vmax 48V > SMBJ33A Vbr 40.6V; keep away from U1/D3/relays"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58217,7 +58217,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C49326266"
+		(property "LCSC" "C49326264"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58230,7 +58230,7 @@
 				)
 			)
 		)
-		(property "MPN" "2920L200/60GR"
+		(property "MPN" "2920L250/48GR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
