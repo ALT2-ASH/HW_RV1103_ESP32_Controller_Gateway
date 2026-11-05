@@ -510,7 +510,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8.2uH 8x8x6.5 shielded, Isat 7.7A, DCR 31mOhm (drop-in for SWPA8065S8R2)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -521,7 +521,7 @@
 				)
 			)
 		)
-		(property "MPN" "SWPA8065S8R2MT"
+		(property "MPN" "FNR8065S8R2MT"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -545,7 +545,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96978"
+		(property "LCSC" "C168161"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11365,7 +11365,7 @@
 				)
 			)
 		)
-		(property "Value" "SS510"
+		(property "Value" "SS38"
 			(at 3.85 2.1 0)
 			(layer "F.Fab")
 			(uuid "55d41dfc-d74d-4ffd-89b5-2cdabfd5642e")
@@ -11389,7 +11389,7 @@
 				)
 			)
 		)
-		(property "Description" "Reverse polarity + diode-OR, SS510 100V 5A"
+		(property "Description" "Reverse polarity + diode-OR, SS38 80V 3A (input PTC 2A)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11402,7 +11402,7 @@
 				)
 			)
 		)
-		(property "MPN" "SS510"
+		(property "MPN" "SS38"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11415,7 +11415,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C65010"
+		(property "LCSC" "C18199196"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36591,7 +36591,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C842794"
+		(property "LCSC" "C18199180"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")

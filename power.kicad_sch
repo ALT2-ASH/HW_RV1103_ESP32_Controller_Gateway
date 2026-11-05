@@ -12764,7 +12764,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C842794"
+		(property "LCSC" "C18199180"
 			(at 184.15 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -14112,7 +14112,7 @@
 				)
 			)
 		)
-		(property "Value" "SS510"
+		(property "Value" "SS38"
 			(at 54.61 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14144,7 +14144,7 @@
 				)
 			)
 		)
-		(property "Description" "Reverse polarity + diode-OR, SS510 100V 5A"
+		(property "Description" "Reverse polarity + diode-OR, SS38 80V 3A (input PTC 2A)"
 			(at 54.61 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14155,7 +14155,7 @@
 				)
 			)
 		)
-		(property "MPN" "SS510"
+		(property "MPN" "SS38"
 			(at 54.61 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14166,7 +14166,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C65010"
+		(property "LCSC" "C18199196"
 			(at 54.61 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14854,7 +14854,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8.2uH 8x8x6.5 shielded, Isat 7.7A, DCR 31mOhm (drop-in for SWPA8065S8R2)"
 			(at 194.31 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -14865,7 +14865,7 @@
 				)
 			)
 		)
-		(property "MPN" "SWPA8065S8R2MT"
+		(property "MPN" "FNR8065S8R2MT"
 			(at 194.31 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -14887,7 +14887,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96978"
+		(property "LCSC" "C168161"
 			(at 194.31 52.07 0)
 			(hide yes)
 			(show_name no)
