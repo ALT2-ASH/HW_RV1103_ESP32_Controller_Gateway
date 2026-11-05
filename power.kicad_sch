@@ -3863,7 +3863,7 @@
 		)
 		(uuid "7f108861-d8d4-4cf0-bb1a-853f6dbfb5df")
 	)
-	(text "VDD_0V9 core = 0.6x(1+47k/100k) = 0.88 V"
+	(text "VDD_0V9 core = 0.6x(1+51k/100k) = 0.906 V"
 		(exclude_from_sim no)
 		(at 44.704 174.244 0)
 		(effects
@@ -8244,7 +8244,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "51k"
 			(at 124.714 194.056 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8298,7 +8298,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25792"
+		(property "LCSC" "C25794"
 			(at 120.65 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -8309,7 +8309,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0747KL"
+		(property "MPN" "0402WGF5102TCE"
 			(at 120.65 191.77 0)
 			(hide yes)
 			(show_name no)

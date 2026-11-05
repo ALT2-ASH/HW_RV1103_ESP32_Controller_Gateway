@@ -117,6 +117,7 @@
 		)
 		(capping no)
 		(filling no)
+		(aux_axis_origin 99.975 136.025)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -60573,7 +60574,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "51k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "96f15562-8709-4936-994b-2208a433d5c1")
@@ -60619,7 +60620,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25792"
+		(property "LCSC" "C25794"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -60632,7 +60633,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-0747KL"
+		(property "MPN" "0402WGF5102TCE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
