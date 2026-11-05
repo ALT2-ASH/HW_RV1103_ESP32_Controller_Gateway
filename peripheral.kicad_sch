@@ -6964,7 +6964,7 @@
 		)
 		(uuid "5996cedf-4db3-4429-9066-9ae12e5aed0b")
 	)
-	(text "ESP32 3V3 decoupling: C69/C70 next to module pin 3"
+	(text "ESP32 3V3 decoupling: C72 100nF + C71 22uF next to module pin 3 (C69 = EN RC)"
 		(exclude_from_sim no)
 		(at 335.28 195.58 0)
 		(effects
@@ -7008,7 +7008,7 @@
 		)
 		(uuid "b46fc7de-9c27-40d5-aa76-2d3eebcb8ba2")
 	)
-	(text "R119 4.7k: ESP_RXD pull-up (holds High until RV1103 UART init)"
+	(text "R40 4.7k: ESP_RXD pull-up (holds High until RV1103 UART init)"
 		(exclude_from_sim no)
 		(at 745.236 21.844 0)
 		(effects
@@ -19181,7 +19181,7 @@
 				)
 			)
 		)
-		(property "Description" "DIM1 0-10 V buffer, gain 3.2, supply DIM_VCC (VIN_DC via R120 100R, D24 27 V clamp)"
+		(property "Description" "DIM1 0-10 V buffer, gain 3.2, supply VIN_DC directly (C75 100nF), output R64 100R + D9 SMF12A"
 			(at 226.06 247.65 0)
 			(hide yes)
 			(show_name no)

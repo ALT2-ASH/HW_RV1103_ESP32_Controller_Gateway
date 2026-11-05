@@ -2790,7 +2790,7 @@
 		)
 		(uuid "443d429b-328b-43f3-89b8-5eaf0f2d7f0d")
 	)
-	(text "U201 PCA9555 @0x20. J201: odd LED1-4, 2 SCL, 4 SDA, 6 INT, 8 GND / J202: odd LED5-8, 2 IN2, 4 IN1, 6 GND, 8 IN3"
+	(text "U201 PCA9555 @0x20. J201: odd LED1-4, 2 SCL, 4 SDA, 6 INT, 8 GND / J202: odd LED5-8, 2 SCL, 4 SDA (DIM bus to ESP bus bridge, panel mandatory), 6/8 GND. IN1-3 via J203"
 		(exclude_from_sim no)
 		(at 185.42 99.06 0)
 		(effects
@@ -2823,7 +2823,7 @@
 		)
 		(uuid "97d4c443-7e18-4bc7-8a2b-deb201856463")
 	)
-	(text "SW209 Recovery key (inside front cover): hold at power-on = MaskROM mode"
+	(text "Recovery key = main SW1 only (no panel key): hold at power-on = MaskROM mode"
 		(exclude_from_sim no)
 		(at 198.12 86.36 0)
 		(effects
@@ -4507,7 +4507,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
 			(at 128.27 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -4964,7 +4964,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
 			(at 67.31 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5087,7 +5087,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
 			(at 97.79 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5311,7 +5311,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
 			(at 128.27 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5766,7 +5766,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
 			(at 36.83 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5889,7 +5889,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
 			(at 67.31 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7651,7 +7651,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
 			(at 36.83 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7987,7 +7987,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94096 LED spacer 4x10mm (pre-order, hand fit)"
+		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
 			(at 97.79 152.4 0)
 			(hide yes)
 			(show_name no)

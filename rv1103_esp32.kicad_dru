@@ -5,31 +5,31 @@
 (rule "AC_to_LV_creepage"
 	(condition "(A.NetClass == 'AC_250V' || A.NetName == 'unconnected-(K*-Pad4)') && B.NetClass != 'AC_250V' && B.NetName != 'unconnected-(K*-Pad4)'")
 	(constraint creepage (min 8mm)))
-(rule "U7_QFN88_0p35_pitch"
-	(condition "A.Type == 'Pad' && B.Type == 'Pad' && A.memberOfFootprint('U7') && B.memberOfFootprint('U7')")
+(rule "U6_QFN88_0p35_pitch"
+	(condition "A.Type == 'Pad' && B.Type == 'Pad' && A.memberOfFootprint('U6') && B.memberOfFootprint('U6')")
 	(constraint clearance (min 0.15mm)))
-(rule "U7_fanout"
-	(condition "A.intersectsCourtyard('U7')")
+(rule "U6_fanout"
+	(condition "A.intersectsCourtyard('U6')")
 	(constraint track_width (min 0.1mm) (opt 0.2mm))
 	(constraint clearance (min 0.1mm)))
 # Impedance (JLC calculator, JLC04161H-7628, L1 ref L2, coated, 0.2 to copper, 2026-11-04):
 #   ETH 100R diff: w 0.2027 @ s 0.195 -> netclass 0.203 / 0.197 (pitch 0.40)
 #   USB  90R diff: w 0.2383 @ s 0.16  -> netclass 0.238 / 0.162 (pitch 0.40)
-# USB pair: the gap check skips the U7 pin neck (0.35 pitch), USBLC6 U6 (1.9 mm pin pitch) and the J1 A/B rows.
-# Net length includes the J1 A7 orientation bridge (~4.8 mm track + 2 vias = 3.2 mm, a stub off the signal path), hence skew 8 mm;
-# uncoupled covers U6, J1 and the two via transitions.
+# USB pair: the gap check skips the U6 pin neck (0.35 pitch), USBLC6 U3 (1.9 mm pin pitch) and the J2 A/B rows.
+# Net length includes the J2 A7 orientation bridge (~4.8 mm track + 2 vias = 3.2 mm, a stub off the signal path), hence skew 8 mm;
+# uncoupled covers U3, J2 and the two via transitions.
 (rule "USB_90R_pair"
-	(condition "A.NetClass == 'USB_90R' && !A.intersectsCourtyard('U7') && !A.intersectsCourtyard('U6') && !A.intersectsCourtyard('J1')")
+	(condition "A.NetClass == 'USB_90R' && !A.intersectsCourtyard('U6') && !A.intersectsCourtyard('U3') && !A.intersectsCourtyard('J2')")
 	(constraint diff_pair_gap (min 0.14mm) (opt 0.162mm) (max 0.19mm)))
 (rule "USB_90R_length"
 	(condition "A.NetClass == 'USB_90R'")
 	(constraint diff_pair_uncoupled (max 15mm))
 	(constraint skew (max 8mm)))
-# Ethernet: the gap check skips the U7 pin neck (0.35 pitch), the 0R column R39/R40/R42/R60 (pads 1.05-1.25 mm apart) and the J5 pin field.
-# Skew is checked inside each pair. The jack side (RJ_*) cannot match: J5's two-row pinout puts each N pin one pin further
+# Ethernet: the gap check skips the U6 pin neck (0.35 pitch), the 0R column R32/R37/R35/R34 (pads 1.05-1.25 mm apart) and the J6 pin field.
+# Skew is checked inside each pair. The jack side (RJ_*) cannot match: J6's two-row pinout puts each N pin one pin further
 # (pin 2 behind pin 1, pin 6 behind pin 3), ~5-7 mm, i.e. ~45 ps against the 8 ns 100BASE-TX symbol time.
 (rule "ETH_100R_pair"
-	(condition "A.NetClass == 'ETH_100R' && !A.intersectsCourtyard('U7') && !A.intersectsCourtyard('J5') && !A.intersectsCourtyard('R39') && !A.intersectsCourtyard('R40') && !A.intersectsCourtyard('R42') && !A.intersectsCourtyard('R60')")
+	(condition "A.NetClass == 'ETH_100R' && !A.intersectsCourtyard('U6') && !A.intersectsCourtyard('J6') && !A.intersectsCourtyard('R32') && !A.intersectsCourtyard('R37') && !A.intersectsCourtyard('R35') && !A.intersectsCourtyard('R34')")
 	(constraint diff_pair_gap (min 0.17mm) (opt 0.197mm) (max 0.23mm)))
 (rule "ETH_100R_length"
 	(condition "A.NetClass == 'ETH_100R'")
@@ -52,12 +52,12 @@
 	(condition "A.NetClass == 'SDIO' && A.NetName != '/Peripheral/SDIO_CLK_WL'")
 	(constraint skew (max 30mm)))
 # FSPI: D2/D3 cross the bus on B.Cu and D0 runs round U8, so data lengths are 15-27 mm. FSPI_CLK is only the
-# U7 -> R33 part; the clock reaching U8 is FSPI_CLK + NCLK (~28 mm). 15 mm is about 0.1 ns against a 10 ns period at 100 MHz.
+# U6 -> R33 part; the clock reaching U8 is FSPI_CLK + NCLK (~28 mm). 15 mm is about 0.1 ns against a 10 ns period at 100 MHz.
 (rule "FSPI_skew"
 	(condition "A.NetClass == 'FSPI' && A.NetName != '/FSPI_CLK'")
 	(constraint skew (max 15mm)))
 
-# USB fan-out from U7 (x 42-54 board): 0.35 mm pitch run, kept at 0.20 / 0.15 (about 95R, inside USB2 90R +-15%).
+# USB fan-out from U6 (x 42-54 board): 0.35 mm pitch run, kept at 0.20 / 0.15 (about 95R, inside USB2 90R +-15%).
 (rule "USB_90R_neck_clearance"
 	(condition "A.NetClass == 'USB_90R' && B.NetClass == 'USB_90R' && A.Width < 0.21mm")
 	(constraint clearance (min 0.14mm)))

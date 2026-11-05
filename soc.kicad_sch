@@ -4185,7 +4185,7 @@
 		)
 		(uuid "4b3bcd4e-dced-4883-ad63-3dbee9baf9ef")
 	)
-	(text "Recovery key = SW1 / panel SW209"
+	(text "Recovery key = SW1"
 		(exclude_from_sim no)
 		(at 365.76 93.472 0)
 		(effects
