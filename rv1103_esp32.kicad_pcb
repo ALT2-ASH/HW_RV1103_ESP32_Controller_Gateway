@@ -13143,7 +13143,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
+		(property "Spacer" "C94096 LED spacer 4x10mm (JLC placed)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29324,7 +29324,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
+		(property "Spacer" "C94096 LED spacer 4x10mm (JLC placed)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31104,7 +31104,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
+		(property "Spacer" "C94096 LED spacer 4x10mm (JLC placed)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -50407,7 +50407,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
+		(property "Spacer" "C94096 LED spacer 4x10mm (JLC placed)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -52668,7 +52668,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
+		(property "Spacer" "C94096 LED spacer 4x10mm (JLC placed)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53937,7 +53937,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
+		(property "Spacer" "C94096 LED spacer 4x10mm (JLC placed)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -54697,7 +54697,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
+		(property "Spacer" "C94096 LED spacer 4x10mm (JLC placed)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -61682,7 +61682,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
+		(property "Spacer" "C94096 LED spacer 4x10mm (JLC placed)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)

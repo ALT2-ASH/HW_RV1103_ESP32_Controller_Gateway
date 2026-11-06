@@ -4507,7 +4507,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
+		(property "Spacer" "C94096 LED spacer 4x10mm (JLC placed)"
 			(at 130.81 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -4964,7 +4964,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
+		(property "Spacer" "C94096 LED spacer 4x10mm (JLC placed)"
 			(at 68.58 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5087,7 +5087,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
+		(property "Spacer" "C94096 LED spacer 4x10mm (JLC placed)"
 			(at 100.33 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5311,7 +5311,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
+		(property "Spacer" "C94096 LED spacer 4x10mm (JLC placed)"
 			(at 132.08 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5766,7 +5766,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
+		(property "Spacer" "C94096 LED spacer 4x10mm (JLC placed)"
 			(at 36.83 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5889,7 +5889,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
+		(property "Spacer" "C94096 LED spacer 4x10mm (JLC placed)"
 			(at 67.31 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7651,7 +7651,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
+		(property "Spacer" "C94096 LED spacer 4x10mm (JLC placed)"
 			(at 35.56 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7987,7 +7987,7 @@
 				)
 			)
 		)
-		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
+		(property "Spacer" "C94096 LED spacer 4x10mm (JLC placed)"
 			(at 99.06 152.4 0)
 			(hide yes)
 			(show_name no)
