@@ -2790,7 +2790,7 @@
 		)
 		(uuid "443d429b-328b-43f3-89b8-5eaf0f2d7f0d")
 	)
-	(text "U201 PCA9555 @0x20. J201: odd LED1-4, 2 SCL, 4 SDA, 6 INT, 8 GND / J202: odd LED5-8, 2 SCL, 4 SDA (DIM bus to ESP bus bridge, panel mandatory), 6/8 GND. IN1-3 via J203"
+	(text "U201 PCA9555 @0x20. J201: odd LED1-4, 2 SCL, 4 SDA, 6 INT, 8 GND / J202: odd LED5-8, 2 SCL, 4 SDA (DIM bus to ESP bus bridge, panel mandatory), 6 GND, 8 5V_DC (LED anodes). IN1-3 via J203"
 		(exclude_from_sim no)
 		(at 185.42 99.06 0)
 		(effects
@@ -2845,7 +2845,7 @@
 		)
 		(uuid "e2d92735-bc54-4b5a-9371-9d8283bc895c")
 	)
-	(text "Per channel: PNL_3V3 -> red LED -> 1k -> DRVn (relay ON = LED ON). Button -> GND, 100nF (ESD)"
+	(text "Per channel: PNL_5V (J202 pin 8 = main 5V_DC) -> red LED -> 2.2k -> DRVn (relay ON = LED ON, approx. 1.4 mA). No LED glow on USB-only power. Button -> GND, 100nF (ESD)"
 		(exclude_from_sim no)
 		(at 25.4 35.56 0)
 		(effects
@@ -3296,7 +3296,7 @@
 		)
 		(uuid "49577f05-52d9-4f67-9ce5-f56cb76f84a2")
 	)
-	(label "PNL_3V3"
+	(label "PNL_5V"
 		(at 132.08 152.4 0)
 		(effects
 			(font
@@ -3316,7 +3316,7 @@
 		)
 		(uuid "50e0087c-2df7-4903-9bb9-9f2ee9ff2861")
 	)
-	(label "PNL_3V3"
+	(label "PNL_5V"
 		(at 40.64 101.6 0)
 		(effects
 			(font
@@ -3576,7 +3576,7 @@
 		)
 		(uuid "a66748b5-77d9-4044-b0d2-cc8d15f22d64")
 	)
-	(label "PNL_3V3"
+	(label "PNL_5V"
 		(at 71.12 101.6 0)
 		(effects
 			(font
@@ -3706,7 +3706,7 @@
 		)
 		(uuid "b98781ff-cd20-4ef7-bf28-1701f23b9fbe")
 	)
-	(label "PNL_3V3"
+	(label "PNL_5V"
 		(at 71.12 152.4 0)
 		(effects
 			(font
@@ -3766,7 +3766,7 @@
 		)
 		(uuid "c7908595-c789-4afe-9653-f806184d8749")
 	)
-	(label "PNL_3V3"
+	(label "PNL_5V"
 		(at 101.6 101.6 0)
 		(effects
 			(font
@@ -3786,7 +3786,7 @@
 		)
 		(uuid "cda40fbe-7419-46da-aa26-13faf4f6168f")
 	)
-	(label "PNL_GND"
+	(label "PNL_5V"
 		(at 170.18 66.04 0)
 		(effects
 			(font
@@ -3806,7 +3806,7 @@
 		)
 		(uuid "cf74d14a-2757-456c-8583-18f44036e306")
 	)
-	(label "PNL_3V3"
+	(label "PNL_5V"
 		(at 132.08 101.6 0)
 		(effects
 			(font
@@ -3846,7 +3846,7 @@
 		)
 		(uuid "da018523-161b-4efc-b5d1-39e5b11d3ffb")
 	)
-	(label "PNL_3V3"
+	(label "PNL_5V"
 		(at 40.64 152.4 0)
 		(effects
 			(font
@@ -3916,7 +3916,7 @@
 		)
 		(uuid "f61554c5-d517-4b30-80e8-b15db9fec7b1")
 	)
-	(label "PNL_3V3"
+	(label "PNL_5V"
 		(at 101.6 152.4 0)
 		(effects
 			(font
@@ -3987,7 +3987,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 59.69 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4030,7 +4030,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C4190"
 			(at 59.69 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -5145,7 +5145,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 90.17 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5188,7 +5188,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C4190"
 			(at 90.17 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6160,7 +6160,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 90.17 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6203,7 +6203,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C4190"
 			(at 90.17 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6261,7 +6261,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 120.65 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6304,7 +6304,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C4190"
 			(at 120.65 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6362,7 +6362,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 29.21 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6405,7 +6405,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C4190"
 			(at 29.21 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6463,7 +6463,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 59.69 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6506,7 +6506,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C4190"
 			(at 59.69 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7272,7 +7272,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 29.21 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7315,7 +7315,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C4190"
 			(at 29.21 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7821,7 +7821,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 120.65 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7864,7 +7864,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C4190"
 			(at 120.65 101.6 0)
 			(hide yes)
 			(show_name no)
