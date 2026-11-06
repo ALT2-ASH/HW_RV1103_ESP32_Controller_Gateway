@@ -3297,7 +3297,7 @@
 		(uuid "49577f05-52d9-4f67-9ce5-f56cb76f84a2")
 	)
 	(label "PNL_5V"
-		(at 132.08 152.4 0)
+		(at 134.62 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3437,7 +3437,7 @@
 		(uuid "78359c3b-8438-456c-bca6-e32f1c8d8b88")
 	)
 	(label "PNL_LED7"
-		(at 86.36 152.4 180)
+		(at 87.63 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3477,7 +3477,7 @@
 		(uuid "83ebf884-7ff5-4e9e-ab9c-06f8976a27d0")
 	)
 	(label "PNL_LED4"
-		(at 116.84 101.6 180)
+		(at 120.65 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3577,7 +3577,7 @@
 		(uuid "a66748b5-77d9-4044-b0d2-cc8d15f22d64")
 	)
 	(label "PNL_5V"
-		(at 71.12 101.6 0)
+		(at 72.39 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3667,7 +3667,7 @@
 		(uuid "b78e5c02-06a4-435a-a652-5218f3e43a04")
 	)
 	(label "PNL_LED3"
-		(at 86.36 101.6 180)
+		(at 88.9 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3737,7 +3737,7 @@
 		(uuid "bdcaef88-ffb1-4ac0-adde-c31613e969de")
 	)
 	(label "PNL_LED2"
-		(at 55.88 101.6 180)
+		(at 57.15 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3767,7 +3767,7 @@
 		(uuid "c7908595-c789-4afe-9653-f806184d8749")
 	)
 	(label "PNL_5V"
-		(at 101.6 101.6 0)
+		(at 104.14 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3777,7 +3777,7 @@
 		(uuid "c959e718-0ec7-470c-9294-5f48d59342a1")
 	)
 	(label "PNL_LED8"
-		(at 116.84 152.4 180)
+		(at 119.38 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3807,7 +3807,7 @@
 		(uuid "cf74d14a-2757-456c-8583-18f44036e306")
 	)
 	(label "PNL_5V"
-		(at 132.08 101.6 0)
+		(at 135.89 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3847,7 +3847,7 @@
 		(uuid "da018523-161b-4efc-b5d1-39e5b11d3ffb")
 	)
 	(label "PNL_5V"
-		(at 40.64 152.4 0)
+		(at 39.37 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3907,7 +3907,7 @@
 		(uuid "f3891f6f-1962-4468-80d1-6dd80907b412")
 	)
 	(label "PNL_LED5"
-		(at 25.4 152.4 180)
+		(at 24.13 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3917,7 +3917,7 @@
 		(uuid "f61554c5-d517-4b30-80e8-b15db9fec7b1")
 	)
 	(label "PNL_5V"
-		(at 101.6 152.4 0)
+		(at 102.87 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3978,7 +3978,7 @@
 		(dnp no)
 		(uuid "019c320c-2726-482c-9230-6fff22d15b72")
 		(property "Reference" "R206"
-			(at 59.69 149.86 0)
+			(at 59.69 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3988,7 +3988,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 59.69 154.94 0)
+			(at 59.69 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4423,7 +4423,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 128.27 152.4 0)
+		(at 130.81 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4433,7 +4433,7 @@
 		(dnp no)
 		(uuid "2487ab8e-6138-4ba3-9f99-81368b761c91")
 		(property "Reference" "D208"
-			(at 128.27 148.59 0)
+			(at 130.81 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4443,7 +4443,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 128.27 156.21 0)
+			(at 130.81 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4453,7 +4453,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 128.27 152.4 0)
+			(at 130.81 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4464,7 +4464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 152.4 0)
+			(at 130.81 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4475,7 +4475,7 @@
 			)
 		)
 		(property "Description" "Panel channel LED, 3 mm red diffused THT, raised on a 3 mm LED spacer"
-			(at 128.27 152.4 0)
+			(at 130.81 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4486,7 +4486,7 @@
 			)
 		)
 		(property "LCSC" "C99771"
-			(at 128.27 152.4 0)
+			(at 130.81 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4497,7 +4497,7 @@
 			)
 		)
 		(property "MPN" "204-10SURD/S530-A3-L"
-			(at 128.27 152.4 0)
+			(at 130.81 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4508,7 +4508,7 @@
 			)
 		)
 		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
-			(at 128.27 152.4 0)
+			(at 130.81 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4519,7 +4519,7 @@
 			)
 		)
 		(property "Note" "3 mm, long legs into opaque tube (old panel part)"
-			(at 128.27 152.4 0)
+			(at 130.81 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4556,7 +4556,7 @@
 		(dnp no)
 		(uuid "24d483ad-befa-48b1-8323-9b57ca213a8a")
 		(property "Reference" "SW205"
-			(at 30.48 166.37 0)
+			(at 30.226 164.084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4566,7 +4566,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 30.48 173.99 0)
+			(at 30.48 165.862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4880,7 +4880,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 67.31 101.6 0)
+		(at 68.58 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4890,7 +4890,7 @@
 		(dnp no)
 		(uuid "47e414d0-248f-4781-8756-3bedd5124d97")
 		(property "Reference" "D202"
-			(at 67.31 97.79 0)
+			(at 68.58 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4900,7 +4900,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 67.31 105.41 0)
+			(at 68.58 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4910,7 +4910,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 67.31 101.6 0)
+			(at 68.58 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4921,7 +4921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 101.6 0)
+			(at 68.58 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4932,7 +4932,7 @@
 			)
 		)
 		(property "Description" "Panel channel LED, 3 mm red diffused THT, raised on a 3 mm LED spacer"
-			(at 67.31 101.6 0)
+			(at 68.58 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4943,7 +4943,7 @@
 			)
 		)
 		(property "LCSC" "C99771"
-			(at 67.31 101.6 0)
+			(at 68.58 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4954,7 +4954,7 @@
 			)
 		)
 		(property "MPN" "204-10SURD/S530-A3-L"
-			(at 67.31 101.6 0)
+			(at 68.58 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4965,7 +4965,7 @@
 			)
 		)
 		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
-			(at 67.31 101.6 0)
+			(at 68.58 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4976,7 +4976,7 @@
 			)
 		)
 		(property "Note" "3 mm, long legs into opaque tube (old panel part)"
-			(at 67.31 101.6 0)
+			(at 68.58 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5003,7 +5003,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 97.79 101.6 0)
+		(at 100.33 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5013,7 +5013,7 @@
 		(dnp no)
 		(uuid "4a5d2953-deaa-448f-98fd-92907c9f702a")
 		(property "Reference" "D203"
-			(at 97.79 97.79 0)
+			(at 100.33 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5023,7 +5023,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 97.79 105.41 0)
+			(at 100.33 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5033,7 +5033,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 97.79 101.6 0)
+			(at 100.33 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5044,7 +5044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 101.6 0)
+			(at 100.33 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5055,7 +5055,7 @@
 			)
 		)
 		(property "Description" "Panel channel LED, 3 mm red diffused THT, raised on a 3 mm LED spacer"
-			(at 97.79 101.6 0)
+			(at 100.33 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5066,7 +5066,7 @@
 			)
 		)
 		(property "LCSC" "C99771"
-			(at 97.79 101.6 0)
+			(at 100.33 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5077,7 +5077,7 @@
 			)
 		)
 		(property "MPN" "204-10SURD/S530-A3-L"
-			(at 97.79 101.6 0)
+			(at 100.33 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5088,7 +5088,7 @@
 			)
 		)
 		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
-			(at 97.79 101.6 0)
+			(at 100.33 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5099,7 +5099,7 @@
 			)
 		)
 		(property "Note" "3 mm, long legs into opaque tube (old panel part)"
-			(at 97.79 101.6 0)
+			(at 100.33 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5126,7 +5126,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 90.17 152.4 90)
+		(at 91.44 152.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5136,7 +5136,7 @@
 		(dnp no)
 		(uuid "4b695cb2-f83d-4967-a4d1-28e5948a5f5d")
 		(property "Reference" "R207"
-			(at 90.17 149.86 0)
+			(at 91.44 148.336 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5146,7 +5146,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 90.17 154.94 0)
+			(at 91.44 155.956 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5156,7 +5156,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 90.17 152.4 0)
+			(at 91.44 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5167,7 +5167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 152.4 0)
+			(at 91.44 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5178,7 +5178,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 152.4 0)
+			(at 91.44 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5189,7 +5189,7 @@
 			)
 		)
 		(property "LCSC" "C4190"
-			(at 90.17 152.4 0)
+			(at 91.44 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5200,7 +5200,7 @@
 			)
 		)
 		(property "Note" "panel LED ~1.4mA from 5V"
-			(at 90.17 152.4 0)
+			(at 91.44 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5227,7 +5227,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 128.27 101.6 0)
+		(at 132.08 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5237,7 +5237,7 @@
 		(dnp no)
 		(uuid "4b7398c3-2c49-4fae-907f-c555394cb9bd")
 		(property "Reference" "D204"
-			(at 128.27 97.79 0)
+			(at 132.08 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5247,7 +5247,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 128.27 105.41 0)
+			(at 132.08 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5257,7 +5257,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 128.27 101.6 0)
+			(at 132.08 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5268,7 +5268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 101.6 0)
+			(at 132.08 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5279,7 +5279,7 @@
 			)
 		)
 		(property "Description" "Panel channel LED, 3 mm red diffused THT, raised on a 3 mm LED spacer"
-			(at 128.27 101.6 0)
+			(at 132.08 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5290,7 +5290,7 @@
 			)
 		)
 		(property "LCSC" "C99771"
-			(at 128.27 101.6 0)
+			(at 132.08 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5301,7 +5301,7 @@
 			)
 		)
 		(property "MPN" "204-10SURD/S530-A3-L"
-			(at 128.27 101.6 0)
+			(at 132.08 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5312,7 +5312,7 @@
 			)
 		)
 		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
-			(at 128.27 101.6 0)
+			(at 132.08 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5323,7 +5323,7 @@
 			)
 		)
 		(property "Note" "3 mm, long legs into opaque tube (old panel part)"
-			(at 128.27 101.6 0)
+			(at 132.08 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5360,7 +5360,7 @@
 		(dnp no)
 		(uuid "561242dd-0855-4610-a7e0-5f73059cafdf")
 		(property "Reference" "SW202"
-			(at 60.96 115.57 0)
+			(at 60.96 113.538 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5370,7 +5370,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 60.96 123.19 0)
+			(at 60.96 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5472,7 +5472,7 @@
 		(dnp no)
 		(uuid "576338f9-f264-4c4b-84c9-1b1f19028216")
 		(property "Reference" "C204"
-			(at 118.11 121.92 0)
+			(at 123.19 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5482,7 +5482,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 118.11 124.46 0)
+			(at 123.19 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5938,7 +5938,7 @@
 		(dnp no)
 		(uuid "72b0f26d-bc10-471c-a9fa-3a8660d0dcce")
 		(property "Reference" "C203"
-			(at 87.63 121.92 0)
+			(at 91.948 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5948,7 +5948,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 87.63 124.46 0)
+			(at 91.948 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6039,7 +6039,7 @@
 		(dnp no)
 		(uuid "743156cc-99ef-4ee1-ad8e-3aa62766d142")
 		(property "Reference" "SW203"
-			(at 91.44 115.57 0)
+			(at 91.186 113.538 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6049,7 +6049,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 91.44 123.19 0)
+			(at 91.44 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6141,7 +6141,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 90.17 101.6 90)
+		(at 92.71 101.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6151,7 +6151,7 @@
 		(dnp no)
 		(uuid "74cd8afa-58b2-45fe-8521-2473f372b507")
 		(property "Reference" "R203"
-			(at 90.17 99.06 0)
+			(at 92.71 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6161,7 +6161,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 90.17 104.14 0)
+			(at 92.71 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6171,7 +6171,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 90.17 101.6 0)
+			(at 92.71 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6182,7 +6182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 101.6 0)
+			(at 92.71 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6193,7 +6193,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 101.6 0)
+			(at 92.71 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6204,7 +6204,7 @@
 			)
 		)
 		(property "LCSC" "C4190"
-			(at 90.17 101.6 0)
+			(at 92.71 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6215,7 +6215,7 @@
 			)
 		)
 		(property "Note" "panel LED ~1.4mA from 5V"
-			(at 90.17 101.6 0)
+			(at 92.71 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6242,7 +6242,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 152.4 90)
+		(at 123.19 152.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6252,7 +6252,7 @@
 		(dnp no)
 		(uuid "80b8e9be-ef85-4cf0-b0de-4e4b65304be2")
 		(property "Reference" "R208"
-			(at 120.65 149.86 0)
+			(at 123.19 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6262,7 +6262,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 120.65 154.94 0)
+			(at 123.19 156.464 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6272,7 +6272,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 120.65 152.4 0)
+			(at 123.19 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6283,7 +6283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 152.4 0)
+			(at 123.19 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6294,7 +6294,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 152.4 0)
+			(at 123.19 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6305,7 +6305,7 @@
 			)
 		)
 		(property "LCSC" "C4190"
-			(at 120.65 152.4 0)
+			(at 123.19 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6316,7 +6316,7 @@
 			)
 		)
 		(property "Note" "panel LED ~1.4mA from 5V"
-			(at 120.65 152.4 0)
+			(at 123.19 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6343,7 +6343,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 29.21 152.4 90)
+		(at 27.94 152.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6353,7 +6353,7 @@
 		(dnp no)
 		(uuid "81d01b4f-1140-486c-a34d-b0751700468f")
 		(property "Reference" "R205"
-			(at 29.21 149.86 0)
+			(at 28.194 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6363,7 +6363,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 29.21 154.94 0)
+			(at 27.94 156.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6373,7 +6373,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 29.21 152.4 0)
+			(at 27.94 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6384,7 +6384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 152.4 0)
+			(at 27.94 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6395,7 +6395,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 152.4 0)
+			(at 27.94 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6406,7 +6406,7 @@
 			)
 		)
 		(property "LCSC" "C4190"
-			(at 29.21 152.4 0)
+			(at 27.94 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6417,7 +6417,7 @@
 			)
 		)
 		(property "Note" "panel LED ~1.4mA from 5V"
-			(at 29.21 152.4 0)
+			(at 27.94 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6444,7 +6444,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 101.6 90)
+		(at 60.96 101.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6454,7 +6454,7 @@
 		(dnp no)
 		(uuid "a4e4a069-9d96-41c9-ac64-c214ee02e987")
 		(property "Reference" "R202"
-			(at 59.69 99.06 0)
+			(at 60.96 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6464,7 +6464,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 59.69 104.14 0)
+			(at 60.96 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6474,7 +6474,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 59.69 101.6 0)
+			(at 60.96 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6485,7 +6485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 101.6 0)
+			(at 60.96 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6496,7 +6496,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 101.6 0)
+			(at 60.96 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6507,7 +6507,7 @@
 			)
 		)
 		(property "LCSC" "C4190"
-			(at 59.69 101.6 0)
+			(at 60.96 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6518,7 +6518,7 @@
 			)
 		)
 		(property "Note" "panel LED ~1.4mA from 5V"
-			(at 59.69 101.6 0)
+			(at 60.96 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6632,7 +6632,7 @@
 		(dnp no)
 		(uuid "a9f76f64-657a-42c4-8947-2abc862e78ab")
 		(property "Reference" "SW204"
-			(at 121.92 115.57 0)
+			(at 121.92 113.792 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6642,7 +6642,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 121.92 123.19 0)
+			(at 121.92 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6744,7 +6744,7 @@
 		(dnp no)
 		(uuid "aa4d687e-4d41-4c08-83a5-3e29c7e09bb2")
 		(property "Reference" "SW201"
-			(at 30.48 115.57 0)
+			(at 30.48 113.538 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6754,7 +6754,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 30.48 123.19 0)
+			(at 30.48 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6856,7 +6856,7 @@
 		(dnp no)
 		(uuid "b25c6313-533d-4e7f-b3dc-f88df31ef445")
 		(property "Reference" "C201"
-			(at 26.67 121.92 0)
+			(at 30.988 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6866,7 +6866,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 26.67 124.46 0)
+			(at 30.988 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6957,7 +6957,7 @@
 		(dnp no)
 		(uuid "bdf57f14-5ab1-4afc-96d9-ffd37dff352a")
 		(property "Reference" "C208"
-			(at 57.15 172.72 0)
+			(at 60.452 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6967,7 +6967,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 57.15 175.26 0)
+			(at 60.452 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7058,7 +7058,7 @@
 		(dnp no)
 		(uuid "c3e17de2-0f74-4f5f-a9ad-ba18d6faa529")
 		(property "Reference" "C210"
-			(at 118.11 172.72 0)
+			(at 122.428 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7068,7 +7068,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 118.11 175.26 0)
+			(at 122.428 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7263,7 +7263,7 @@
 		(dnp no)
 		(uuid "cdbc5661-bc17-4556-a39b-c7ffa3a87c55")
 		(property "Reference" "R201"
-			(at 29.21 99.06 0)
+			(at 29.21 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7273,7 +7273,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 29.21 104.14 0)
+			(at 29.21 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7364,7 +7364,7 @@
 		(dnp no)
 		(uuid "d5504acb-c157-4ad8-9002-0238b3ff5b38")
 		(property "Reference" "SW208"
-			(at 121.92 166.37 0)
+			(at 121.92 164.846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7374,7 +7374,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 121.92 173.99 0)
+			(at 121.92 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7476,7 +7476,7 @@
 		(dnp no)
 		(uuid "d86bbde8-ba9e-4451-9170-4dd07077abc8")
 		(property "Reference" "C209"
-			(at 87.63 172.72 0)
+			(at 91.44 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7486,7 +7486,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 87.63 175.26 0)
+			(at 91.44 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7567,7 +7567,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 36.83 152.4 0)
+		(at 35.56 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7577,7 +7577,7 @@
 		(dnp no)
 		(uuid "e26c7101-2ae4-4a5a-a1e0-88c4ffa8f9a6")
 		(property "Reference" "D205"
-			(at 36.83 148.59 0)
+			(at 35.56 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7587,7 +7587,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 36.83 156.21 0)
+			(at 35.56 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7597,7 +7597,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 36.83 152.4 0)
+			(at 35.56 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7608,7 +7608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 152.4 0)
+			(at 35.56 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7619,7 +7619,7 @@
 			)
 		)
 		(property "Description" "Panel channel LED, 3 mm red diffused THT, raised on a 3 mm LED spacer"
-			(at 36.83 152.4 0)
+			(at 35.56 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7630,7 +7630,7 @@
 			)
 		)
 		(property "LCSC" "C99771"
-			(at 36.83 152.4 0)
+			(at 35.56 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7641,7 +7641,7 @@
 			)
 		)
 		(property "MPN" "204-10SURD/S530-A3-L"
-			(at 36.83 152.4 0)
+			(at 35.56 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7652,7 +7652,7 @@
 			)
 		)
 		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
-			(at 36.83 152.4 0)
+			(at 35.56 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7663,7 +7663,7 @@
 			)
 		)
 		(property "Note" "3 mm, long legs into opaque tube (old panel part)"
-			(at 36.83 152.4 0)
+			(at 35.56 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7700,7 +7700,7 @@
 		(dnp no)
 		(uuid "e4990194-d04a-4898-b136-afa1d76dbde7")
 		(property "Reference" "SW206"
-			(at 60.96 166.37 0)
+			(at 60.706 164.592 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7710,7 +7710,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 60.96 173.99 0)
+			(at 60.96 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7802,7 +7802,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 101.6 90)
+		(at 124.46 101.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7812,7 +7812,7 @@
 		(dnp no)
 		(uuid "e5ee8032-15d0-4002-976b-1c3c23f3bec4")
 		(property "Reference" "R204"
-			(at 120.65 99.06 0)
+			(at 124.46 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7822,7 +7822,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 120.65 104.14 0)
+			(at 124.46 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7832,7 +7832,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 120.65 101.6 0)
+			(at 124.46 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7843,7 +7843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 101.6 0)
+			(at 124.46 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7854,7 +7854,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 101.6 0)
+			(at 124.46 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7865,7 +7865,7 @@
 			)
 		)
 		(property "LCSC" "C4190"
-			(at 120.65 101.6 0)
+			(at 124.46 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7876,7 +7876,7 @@
 			)
 		)
 		(property "Note" "panel LED ~1.4mA from 5V"
-			(at 120.65 101.6 0)
+			(at 124.46 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7903,7 +7903,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 97.79 152.4 0)
+		(at 99.06 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7913,7 +7913,7 @@
 		(dnp no)
 		(uuid "e77d28b8-a466-44dd-a04f-b0691ce3428c")
 		(property "Reference" "D207"
-			(at 97.79 148.59 0)
+			(at 99.06 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7923,7 +7923,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 97.79 156.21 0)
+			(at 99.06 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7933,7 +7933,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 97.79 152.4 0)
+			(at 99.06 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7944,7 +7944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 152.4 0)
+			(at 99.06 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7955,7 +7955,7 @@
 			)
 		)
 		(property "Description" "Panel channel LED, 3 mm red diffused THT, raised on a 3 mm LED spacer"
-			(at 97.79 152.4 0)
+			(at 99.06 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7966,7 +7966,7 @@
 			)
 		)
 		(property "LCSC" "C99771"
-			(at 97.79 152.4 0)
+			(at 99.06 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7977,7 +7977,7 @@
 			)
 		)
 		(property "MPN" "204-10SURD/S530-A3-L"
-			(at 97.79 152.4 0)
+			(at 99.06 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7988,7 +7988,7 @@
 			)
 		)
 		(property "Spacer" "C94095 LED spacer 4x9mm (JLC placed)"
-			(at 97.79 152.4 0)
+			(at 99.06 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7999,7 +7999,7 @@
 			)
 		)
 		(property "Note" "3 mm, long legs into opaque tube (old panel part)"
-			(at 97.79 152.4 0)
+			(at 99.06 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8036,7 +8036,7 @@
 		(dnp no)
 		(uuid "e98d09e5-ed8e-482e-9046-06054070b841")
 		(property "Reference" "C202"
-			(at 57.15 121.92 0)
+			(at 61.976 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8046,7 +8046,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 57.15 124.46 0)
+			(at 61.976 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8147,7 +8147,7 @@
 			)
 		)
 		(property "Value" "PCA9555PW"
-			(at 208.28 162.56 0)
+			(at 213.36 159.258 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8469,7 +8469,7 @@
 		(dnp no)
 		(uuid "fafdbcd3-765f-46fd-878c-6894a8dd4bf3")
 		(property "Reference" "C207"
-			(at 26.67 172.72 0)
+			(at 30.48 172.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8479,7 +8479,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 26.67 175.26 0)
+			(at 30.734 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8570,7 +8570,7 @@
 		(dnp no)
 		(uuid "fde3a4fb-d74d-4aa8-b3a1-c5e123c13727")
 		(property "Reference" "SW207"
-			(at 91.44 166.37 0)
+			(at 91.44 164.846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8580,7 +8580,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 91.44 173.99 0)
+			(at 91.44 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

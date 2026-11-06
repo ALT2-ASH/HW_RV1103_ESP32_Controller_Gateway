@@ -6981,6 +6981,16 @@
 		(uuid "e0f9602f-ca94-4ee4-a0b2-d8be93c5c294")
 	)
 	(label "5V_DC"
+		(at 370.84 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e19c9afe-36df-4005-9557-bbd54b12b693")
+	)
+	(label "5V_DC"
 		(at 22.86 40.64 180)
 		(effects
 			(font
@@ -12121,16 +12131,6 @@
 				)
 			)
 		)
-	)
-	(label "5V_DC"
-		(at 370.84 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e19c9afe-36df-4005-9557-bbd54b12b693")
 	)
 	(symbol
 		(lib_id "power:GND")
