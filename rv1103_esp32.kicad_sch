@@ -1095,7 +1095,7 @@
 		)
 		(uuid "207432c5-63c2-4bc6-8f49-1fdd17d7eeb4")
 	)
-	(label "ETH_LED_LINK"
+	(label "DBG_LED1"
 		(at 142.24 147.32 180)
 		(effects
 			(font
@@ -1105,7 +1105,7 @@
 		)
 		(uuid "265f610a-aabd-4841-9eee-4aafa65c6008")
 	)
-	(label "ETH_LED_ACT"
+	(label "DBG_LED0"
 		(at 35.56 198.12 180)
 		(effects
 			(font
@@ -1175,7 +1175,7 @@
 		)
 		(uuid "367064ea-1526-45c3-a6ec-2a1a34c9d4ee")
 	)
-	(label "ETH_LED_ACT"
+	(label "DBG_LED0"
 		(at 142.24 144.78 180)
 		(effects
 			(font
@@ -1805,7 +1805,7 @@
 		)
 		(uuid "f5cc639d-2df2-467f-a56f-eadb789f2731")
 	)
-	(label "ETH_LED_LINK"
+	(label "DBG_LED1"
 		(at 35.56 200.66 180)
 		(effects
 			(font
@@ -2695,7 +2695,7 @@
 				(justify left)
 			)
 		)
-		(pin "ETH_LED_ACT" output
+		(pin "DBG_LED0" output
 			(at 147.32 144.78 180)
 			(uuid "2feffdfd-8050-454b-89f4-e7b9285fa0af")
 			(effects
@@ -2705,7 +2705,7 @@
 				(justify left)
 			)
 		)
-		(pin "ETH_LED_LINK" output
+		(pin "DBG_LED1" output
 			(at 147.32 147.32 180)
 			(uuid "5eebcbd2-a17e-4438-ae7a-4a35de3a75b0")
 			(effects
@@ -3167,7 +3167,7 @@
 				(justify left)
 			)
 		)
-		(pin "ETH_LED_ACT" input
+		(pin "DBG_LED0" input
 			(at 40.64 198.12 180)
 			(uuid "f113489d-b74f-47be-8cd2-7c0bfc58906a")
 			(effects
@@ -3177,7 +3177,7 @@
 				(justify left)
 			)
 		)
-		(pin "ETH_LED_LINK" input
+		(pin "DBG_LED1" input
 			(at 40.64 200.66 180)
 			(uuid "036c9318-3949-4e75-b3cf-48aaa73ec586")
 			(effects

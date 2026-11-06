@@ -3874,7 +3874,7 @@
 		)
 		(uuid "82fe22fb-ee22-46a9-a2a7-e6392e16e5c4")
 	)
-	(text "Protection: D1 reverse / F1 PTC 2.5 A (shared by J1 and J7 V+ = VIN_RAW) / D2 TVS. 5V_DC -> relays, D3 -> VCC5V0_SYS (USB via Q1, DC first)"
+	(text "Protection: D1 reverse / F1 PTC 2.5 A after D1 (J1 and J7 V+ share VIN_RAW ahead of D1/F1: J7 sensor supply out is not fused) / D2 TVS. 5V_DC -> relays, D3 -> VCC5V0_SYS (USB via Q1, DC first)"
 		(exclude_from_sim no)
 		(at 39.37 36.83 0)
 		(effects

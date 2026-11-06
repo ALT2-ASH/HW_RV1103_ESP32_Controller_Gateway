@@ -4240,7 +4240,7 @@
 		)
 		(uuid "a0791da5-724a-4fb6-8818-fb0b12d470cc")
 	)
-	(text "FRONT_KEY = GPIO3_C7 (pin 4), pressed = Low"
+	(text "FRONT_KEY = GPIO1_C0 (pin 65, 3.3 V), pressed = Low. LED_SYS = GPIO1_C1 (pin 64).\nPins 1-5 (GPIO3_C4..D0) are 1.8 V only (GPIO7 domain): ETH LEDs on pins 1/3 run at 1.8 V (dim/off, accepted)."
 		(exclude_from_sim no)
 		(at 365.76 90.932 0)
 		(effects
@@ -4389,16 +4389,16 @@
 		(uuid "395d9890-33e0-4775-877e-e9ce34ff631e")
 	)
 	(no_connect
-		(at 52.07 245.11)
-		(uuid "3f5b9497-a005-4ad8-b738-aa4cddebe891")
-	)
-	(no_connect
 		(at 92.71 247.65)
 		(uuid "47dd3bbc-f1cb-4c3e-82c8-737415dec6b0")
 	)
 	(no_connect
 		(at 43.18 93.98)
 		(uuid "5073abb4-f91b-4348-8811-65fd21ff3457")
+	)
+	(no_connect
+		(at 92.71 260.35)
+		(uuid "50fa2312-04c8-4ed3-b9cf-a586cd47dea8")
 	)
 	(no_connect
 		(at 52.07 260.35)
@@ -4441,12 +4441,12 @@
 		(uuid "9a7ee893-8565-4432-a3fa-8ef7d948c93a")
 	)
 	(no_connect
-		(at 52.07 247.65)
-		(uuid "9d5d3501-312f-44dd-b380-1dba20bd6026")
-	)
-	(no_connect
 		(at 43.18 101.6)
 		(uuid "a782d0c8-1b17-4baa-9b54-bf1954a7c36b")
+	)
+	(no_connect
+		(at 92.71 257.81)
+		(uuid "d061e4a7-8b4b-4d71-a61c-1a7f2362cdad")
 	)
 	(no_connect
 		(at 92.71 165.1)
@@ -4728,16 +4728,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 260.35) (xy 92.71 260.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a00f7b88-fb97-4e79-b07a-dd37093d7437")
-	)
-	(wire
-		(pts
 			(xy 347.98 105.41) (xy 359.41 105.41)
 		)
 		(stroke
@@ -4847,7 +4837,7 @@
 		(uuid "095c3093-f352-461c-a05c-33a2b0cceea3")
 	)
 	(label "FRONT_KEY"
-		(at 105.41 260.35 180)
+		(at 52.07 245.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4907,12 +4897,12 @@
 		(uuid "2ec4424f-b6bf-47be-8400-c92624d22751")
 	)
 	(label "LED_SYS"
-		(at 92.71 257.81 0)
+		(at 52.07 247.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3917b6b9-b3ea-4101-8627-b043320f8446")
 	)
@@ -5176,7 +5166,7 @@
 		)
 		(uuid "f7ba0e5b-2bb2-4c04-94dd-fc64f34e1ab3")
 	)
-	(hierarchical_label "ETH_LED_LINK"
+	(hierarchical_label "DBG_LED1"
 		(shape output)
 		(at 93.98 88.9 0)
 		(effects
@@ -5253,7 +5243,7 @@
 		)
 		(uuid "2a3bb386-ee76-49f1-b304-55d3a50f6725")
 	)
-	(hierarchical_label "ETH_LED_ACT"
+	(hierarchical_label "DBG_LED0"
 		(shape output)
 		(at 93.98 91.44 0)
 		(effects
@@ -11372,7 +11362,7 @@
 				)
 			)
 		)
-		(property "Description" "Front metal button switch: 1 KEY_IN (ESD D23, R30 100R -> FRONT_KEY GPIO3_C7), 2 GND"
+		(property "Description" "Front metal button switch: 1 KEY_IN (ESD D23, R30 100R -> FRONT_KEY GPIO1_C0), 2 GND"
 			(at 402.59 76.2 0)
 			(hide yes)
 			(show_name no)
